@@ -1,0 +1,234 @@
+{
+  "frames": {
+    "Caminar_00006.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00007.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00008.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00009.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00010.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00011.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00012.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00013.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00014.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00015.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00016.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00017.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00018.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00019.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00020.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00021.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00022.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00023.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00024.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00025.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00026.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00027.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00028.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "Caminar_00029.png": {
+      "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+      "sourceSize": { "w": 128, "h": 72 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    }
+  },
+  "animations": {
+    "caminarAbajo": [
+      "Caminar_00006.png",
+      "Caminar_00007.png",
+      "Caminar_00008.png",
+      "Caminar_00009.png",
+      "Caminar_00009.png",
+      "Caminar_00010.png",
+      "Caminar_00011.png",
+      "Caminar_00012.png",
+      "Caminar_00013.png",
+      "Caminar_00014.png",
+      "Caminar_00015.png",
+      "Caminar_00016.png",
+      "Caminar_00017.png",
+      "Caminar_00018.png",
+      "Caminar_00019.png",
+      "Caminar_00020.png",
+      "Caminar_00021.png",
+      "Caminar_00022.png",
+      "Caminar_00023.png",
+      "Caminar_00024.png",
+      "Caminar_00025.png",
+      "Caminar_00026.png",
+      "Caminar_00027.png",
+      "Caminar_00028.png",
+      "Caminar_00029.png"
+    ]
+  },
+  "meta": {
+    "image": "Caminar-sheet.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 3072,
+      "h": 72
+    },
+    "scale": 1
+  }
+}

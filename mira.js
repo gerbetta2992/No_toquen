@@ -31,4 +31,8 @@ class Mira extends GameObject {
       this.container.addChild(this.spritesAnimados[key]);
     }
   }
+
+  cambiarDeSpriteAnimadoSegunAngulo(){
+
+  }
 }

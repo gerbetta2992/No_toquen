@@ -18,7 +18,6 @@ class GameObject {
     this.container = new PIXI.Container();
     this.animaciones = null;
 
-
     this.textureData = textureData;
     this.container.name = "container";
     this.vision = Math.random() * 200 + 1300;
@@ -63,14 +62,11 @@ class GameObject {
       this.spritesAnimados[key].visible = false;
 
     }
-    console.log(cual);
-    console.log(this.spritesAnimados[cual]);
     //y despues hacemos visible el q queremos
     this.spritesAnimados[cual].visible = true;
   }
 
-  cargarSpritesAnimados(textureData, scale) {
-
+  cargarSpritesAnimados(textureData, scale, velAnim) {
 
     for (let key of Object.keys(textureData.animations)) {
       this.spritesAnimados[key] = new PIXI.AnimatedSprite(
@@ -79,28 +75,27 @@ class GameObject {
 
       this.spritesAnimados[key].play();
       this.spritesAnimados[key].loop = true;
-      this.spritesAnimados[key].animationSpeed = 0.1;
+      this.spritesAnimados[key].animationSpeed = velAnim;
       this.spritesAnimados[key].scale.set(scale);
       this.spritesAnimados[key].anchor.set(0.5, 0.5);
 
       this.container.addChild(this.spritesAnimados[key]);
     }
+    
   }
 
   tick() {
     //TODO: hablar de deltatime
-    this.aceleracion.x = 0;
-    this.aceleracion.y = 0;
+    //this.aceleracion.x = 0;
+    //this.aceleracion.y = 0;
 
     this.separacion();
 
     this.escapar();
     this.perseguir();
     this.limitarAceleracion();
-    this.velocidad.x +=
-      this.aceleracion.x * this.juego.pixiApp.ticker.deltaTime;
-    this.velocidad.y +=
-      this.aceleracion.y * this.juego.pixiApp.ticker.deltaTime;
+    this.velocidad.x += this.aceleracion.x * this.juego.pixiApp.ticker.deltaTime;
+    this.velocidad.y += this.aceleracion.y * this.juego.pixiApp.ticker.deltaTime;
 
     //variaciones de la velocidad
     this.rebotar();
@@ -158,49 +153,52 @@ class GameObject {
     this.aceleracion.y += vectorQueSeAlejaDelPromedioDePosicion.y * factor;
   }
 
-async cambiarDeSpriteAnimadoSegunAngulo() {
-    //0 grados es a la izquierda, 180 a la derecha, 90 arriba, 270 abajo
-    const moving = calcularDistancia(this.posicion, this.target.posicion) > 200;
+  
 
-    let sheetPath, animName;
+async cambiarDeSpriteAnimadoSegunAngulo(persona, escala) {
+    //0 grados es a la izquierda, 180 a la derecha, 90 arriba, 270 abajo
+    //const moving = calcularDistancia(this.posicion, this.target.posicion) > 200;
+    const moving = this.target;
+
+    let animName, velAnim;
 
     // Determinar hoja y animación según dirección y movimiento
-    if (this.angulo > 90 && this.angulo < 270) { // Izquierda
-        sheetPath = moving ? "Sprites/Brazuca/Correr/Correr.json" : "Sprites/Brazuca/Caminar/Caminar-sheet.json";
-        animName = moving ? "correr" : "caminar";
-    } else { // Derecha
-        sheetPath = moving ? "Sprites/Brazuca/Correr/Correr.json" : "Sprites/Brazuca/Caminar/Caminar-sheet.json";
-        animName = moving ? "correr" : "caminar";
+    if (this.angulo > 90 && this.angulo < 270) {
+      if (moving){// Izquierda
+        this.textureData = await PIXI.Assets.load("Sprites/Personas/"+persona+"/Caminar/Caminar-sheet.json");
+        animName = "caminar";
+        velAnim = 0.5;
+        this.asignarVelocidad(velAnim, velAnim)
+      }    
+      else{
+        this.textureData = await PIXI.Assets.load("Sprites/Personas/"+persona+"/Correr/Correr.json");
+        animName = "correr";
+        velAnim = 1;
+        this.asignarVelocidad(velAnim, velAnim)
+      }                        
     }
-
-    // Cargar el sheet si no está cargado
-    if (!PIXI.Assets.cache.has(sheetPath)) {
-        await PIXI.Assets.load(sheetPath);
-    }
-
-    const sheet = PIXI.Assets.get(sheetPath);
+    else { // Derecha
+      if (moving){
+        this.textureData = await PIXI.Assets.load("Sprites/Personas/"+persona+"/Caminar/Caminar-sheet.json"); 
+        animName = "caminar"; 
+        velAnim = 0.5; 
+        this.asignarVelocidad(velAnim, velAnim)
+      }
+      else{
+        this.textureData = await PIXI.Assets.load("Sprites/Personas/"+persona+"/Correr/Correr.json");
+        animName = "correr";
+        velAnim = 1;
+        this.asignarVelocidad(velAnim, velAnim)
+      }
+    };
     
     if (!this.spritesAnimados[animName]) {
-        const textures = sheet.animations[animName];
-        this.spritesAnimados[animName] = new PIXI.AnimatedSprite(textures);
-        this.spritesAnimados[animName].loop = true;
-        this.spritesAnimados[animName].animationSpeed = 0.1;
-        this.spritesAnimados[animName].scale.set(2);
-        this.spritesAnimados[animName].anchor.set(0.5, 1);
-        this.spritesAnimados[animName].play();
-        this.container.addChild(this.spritesAnimados[animName]);
+        this.cargarSpritesAnimados(this.textureData, escala, velAnim)
     }
-
-    // Si el AnimatedSprite ya existe, actualizar texturas si cambió
-    else if (this.spritesAnimados[animName].textures !== sheet.animations[animName]) {
-        this.spritesAnimados[animName].textures = sheet.animations[animName];
-        this.spritesAnimados[animName].play();
-    }
-
-    this.spritesAnimados[animName].scale.x = (this.angulo > 90 && this.angulo < 270) ? 2 : -2;
+    console.log(velAnim);
+    this.spritesAnimados[animName].scale.x = (this.angulo > 90 && this.angulo < 270) ? escala : -escala;
 
     // Cambiar animación activa
-    //console.log(animName)
     this.cambiarAnimacion(animName);
 }
 
@@ -285,9 +283,7 @@ async cambiarDeSpriteAnimadoSegunAngulo() {
     this.container.x = this.posicion.x;
     this.container.y = this.posicion.y;
 
-    this.container.zIndex = this.posicion.y;
-
-    //this.cambiarDeSpriteAnimadoSegunAngulo();
+    //this.container.zIndex = this.posicion.y;
     //this.cambiarVelocidadDeAnimacionSegunVelocidadLineal();
   }
 

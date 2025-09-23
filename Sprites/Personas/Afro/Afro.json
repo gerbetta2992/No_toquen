@@ -1,0 +1,456 @@
+{ "frames": {
+   "Afro 0.png": {
+    "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 1.png": {
+    "frame": { "x": 128, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 2.png": {
+    "frame": { "x": 256, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 3.png": {
+    "frame": { "x": 384, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 4.png": {
+    "frame": { "x": 512, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 5.png": {
+    "frame": { "x": 640, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 6.png": {
+    "frame": { "x": 768, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 7.png": {
+    "frame": { "x": 896, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 8.png": {
+    "frame": { "x": 1024, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 9.png": {
+    "frame": { "x": 1152, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 10.png": {
+    "frame": { "x": 1280, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 11.png": {
+    "frame": { "x": 1408, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 12.png": {
+    "frame": { "x": 1536, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 13.png": {
+    "frame": { "x": 1664, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 14.png": {
+    "frame": { "x": 1792, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 15.png": {
+    "frame": { "x": 1920, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 16.png": {
+    "frame": { "x": 2048, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 17.png": {
+    "frame": { "x": 2176, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 18.png": {
+    "frame": { "x": 2304, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 19.png": {
+    "frame": { "x": 2432, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 20.png": {
+    "frame": { "x": 2560, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 21.png": {
+    "frame": { "x": 2688, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 22.png": {
+    "frame": { "x": 2816, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 23.png": {
+    "frame": { "x": 2944, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 25.png": {
+    "frame": { "x": 3200, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 26.png": {
+    "frame": { "x": 3328, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 27.png": {
+    "frame": { "x": 3456, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 28.png": {
+    "frame": { "x": 3584, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 29.png": {
+    "frame": { "x": 3712, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 30.png": {
+    "frame": { "x": 3840, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 31.png": {
+    "frame": { "x": 3968, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 32.png": {
+    "frame": { "x": 4096, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 33.png": {
+    "frame": { "x": 4224, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 34.png": {
+    "frame": { "x": 4352, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 35.png": {
+    "frame": { "x": 4480, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 36.png": {
+    "frame": { "x": 4608, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 37.png": {
+    "frame": { "x": 4736, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 38.png": {
+    "frame": { "x": 4864, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 39.png": {
+    "frame": { "x": 4992, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 40.png": {
+    "frame": { "x": 5120, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 41.png": {
+    "frame": { "x": 5248, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 42.png": {
+    "frame": { "x": 5376, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 43.png": {
+    "frame": { "x": 5504, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 44.png": {
+    "frame": { "x": 5632, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 45.png": {
+    "frame": { "x": 5760, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 46.png": {
+    "frame": { "x": 5888, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 47.png": {
+    "frame": { "x": 6016, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Afro 48.png": {
+    "frame": { "x": 6144, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   }
+ },
+ "animations": {
+    "caminar": [
+      "Afro 0.png",
+      "Afro 1.png",
+      "Afro 2.png",
+      "Afro 3.png",
+      "Afro 4.png",
+      "Afro 5.png",
+      "Afro 6.png",
+      "Afro 7.png",
+      "Afro 8.png",
+      "Afro 9.png",
+      "Afro 10.png",
+      "Afro 11.png",
+      "Afro 12.png",
+      "Afro 13.png",
+      "Afro 14.png",
+      "Afro 15.png",
+      "Afro 16.png",
+      "Afro 17.png",
+      "Afro 18.png",
+      "Afro 19.png",
+      "Afro 20.png",
+      "Afro 21.png",
+      "Afro 22.png",
+      "Afro 23.png"
+    ],
+    "correr": [
+      "Afro 25.png",
+      "Afro 26.png",
+      "Afro 27.png",
+      "Afro 28.png",
+      "Afro 29.png",
+      "Afro 30.png",
+      "Afro 31.png",
+      "Afro 32.png",
+      "Afro 33.png",
+      "Afro 34.png",
+      "Afro 35.png",
+      "Afro 36.png",
+      "Afro 37.png",
+      "Afro 38.png",
+      "Afro 39.png",
+      "Afro 40.png",
+      "Afro 41.png",
+      "Afro 42.png",
+      "Afro 43.png",
+      "Afro 44.png",
+      "Afro 45.png",
+      "Afro 46.png",
+      "Afro 47.png",
+      "Afro 48.png"
+    ]
+  },
+ "meta": {
+  "image":"Afro.png",
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.14-beta1-x64",
+  "format": "RGBA8888",
+  "size": { "w": 6272, "h": 72 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

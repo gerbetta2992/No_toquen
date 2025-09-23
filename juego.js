@@ -44,28 +44,20 @@ class Juego {
     //cargamos la imagen bunny.png y la guardamos en la variable texture
     //const texture = await PIXI.Assets.load("bunny.png");
 
-    const miraAnim = await PIXI.Assets.load("Sprites/Mira/Mira.json");
-
-    const mira = new Mira(miraAnim, 0.5 * this.width, 0.5 * this.height, this);
-    this.mira = mira;
-    
     const ciudadAnim = await PIXI.Assets.load("Sprites/Ciudad/Ciudad.png");
 
     const ciudad = new Ciudad(ciudadAnim, 0.5 * this.width, 0.5 * this.height, this);
     this.ciudad = ciudad;
 
+    const miraAnim = await PIXI.Assets.load("Sprites/Mira/Mira.json");
+
+    const mira = new Mira(miraAnim, 0.5 * this.width, 0.5 * this.height, this);
+    this.mira = mira;
+    
+
+
 
     this.cargarPersonas();
-    //console.log(mira);
-    //for (let i = 0; i < 1; i++) {
-    //  const x = 0.5 * this.width;
-    //  const y = 0.5 * this.height;
-    //  //crea una instancia de clase Conejito, el constructor de dicha clase toma como parametros la textura
-    //  // q queremos usar,X,Y y una referencia a la instancia del juego (this)
-    //  const conejito = new Persona(BrazucaAnim, x, y, this);
-    //  this.personas.push(conejito);
-    //  
-    //}
 
     //agregamos el metodo this.gameLoop al ticker.
     //es decir: en cada frame vamos a ejecutar el metodo this.gameLoop
@@ -73,7 +65,7 @@ class Juego {
 
     this.agregarInteractividadDelMouse();
 
-    // this.asignarPerseguidorRandomATodos();
+     this.asignarPerseguidorRandomATodos();
     // this.asignarTargets();
     //this.asignarElMouseComoTargetATodosLosConejitos();
   }
@@ -81,7 +73,7 @@ class Juego {
   listarPersonas(){
 
     // Ruta de la carpeta principal
-    const personas = ["Brazuca","Afro", "Pelado"]
+    const personas = ["Afro", "Brazuca", "Pelado"]
       return personas
   }
 
@@ -94,7 +86,7 @@ class Juego {
     const lista_personas = this.listarPersonas();
     const animacionesPersonas = {}
     for (const persona of lista_personas) {
-      animacionesPersonas[persona] = await PIXI.Assets.load(`Sprites/Personas/${persona}/Correr/Correr.json`);
+      animacionesPersonas[persona] = await PIXI.Assets.load(`Sprites/Personas/${persona}/${persona}.json`);
     }
     const x = 0.5 * this.width;
     const y = 0.5 * this.height;
@@ -107,17 +99,17 @@ class Juego {
 
   agregarInteractividadDelMouse() {
     // Escuchar el evento mousemove
-   // this.pixiApp.canvas.onmousemove = (event) => {
-   //   this.mouse.posicion = { x: event.x, y: event.y };
-   // };
-
     this.pixiApp.canvas.onmousemove = (event) => {
-    const rect = this.pixiApp.canvas.getBoundingClientRect();
-    this.mouse.posicion = {
-      x: (event.clientX - rect.left) * (this.pixiApp.renderer.width / rect.width),
-      y: (event.clientY - rect.top) * (this.pixiApp.renderer.height / rect.height),
-      };
+      this.mouse.posicion = { x: event.x, y: event.y };
     };
+
+   //this.pixiApp.canvas.onmousemove = (event) => {
+   //const rect = this.pixiApp.canvas.getBoundingClientRect();
+   //this.mouse.posicion = {
+   //  x: (event.clientX - rect.left) * (this.pixiApp.renderer.width / rect.width),
+   //  y: (event.clientY - rect.top) * (this.pixiApp.renderer.height / rect.height),
+   //  };
+   //};
   }
 
   gameLoop(time) {

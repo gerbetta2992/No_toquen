@@ -158,27 +158,22 @@ class GameObject {
 async cambiarDeSpriteAnimadoSegunAngulo(persona, escala) {
     //0 grados es a la izquierda, 180 a la derecha, 90 arriba, 270 abajo
     //const moving = calcularDistancia(this.posicion, this.target.posicion) > 200;
-    const moving = this.target;
+    const moving = !this.target;
 
     let animName, velAnim;
 
     // Determinar hoja y animación según dirección y movimiento
 
     if (moving){
-      this.textureData = await PIXI.Assets.load("Sprites/Personas/"+persona+"/Caminar/Caminar.json");
       animName = "caminar";
       velAnim = 0.5;
     }
-    else{
-      this.textureData = await PIXI.Assets.load("Sprites/Personas/"+persona+"/Correr/Correr.json");
+    else if (!moving){
+      this.cancelarMovimientoErratico();
       animName = "correr";
       velAnim = 1;
     }
 
-    if (!this.spritesAnimados[animName]) {
-        this.cargarSpritesAnimados(this.textureData, escala, velAnim)
-    }
-    console.log(velAnim);
     if (this.angulo > 90 && this.angulo < 270){
       this.spritesAnimados[animName].scale.x = escala;
     }
@@ -186,7 +181,6 @@ async cambiarDeSpriteAnimadoSegunAngulo(persona, escala) {
       this.spritesAnimados[animName].scale.x = -escala;
     }
     
-
     // Cambiar animación activa
     this.cambiarAnimacion(animName);
 }
@@ -197,6 +191,12 @@ async cambiarDeSpriteAnimadoSegunAngulo(persona, escala) {
 
   limitarVelocidad() {
     this.velocidad = limitarVector(this.velocidad, this.velocidadMaxima);
+    if (this.spritesAnimados["caminar"].visible == true){
+      this.velocidadMaxima = 1;
+    }
+    else if (this.spritesAnimados["correr"].visible == true){
+      this.velocidadMaxima = 3;
+    }
   }
 
   aplicarFriccion() {

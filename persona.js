@@ -31,7 +31,7 @@ class Persona extends GameObject {
 
       this.container.addChild(this.spritesAnimados[key]);
     }
-    console.log(velAnim);
+    //console.log(textureData);
   }
 
   movimientoErratico(){
@@ -53,7 +53,6 @@ class Persona extends GameObject {
 
     this.aceleracion.x += -vectorTemporal.x;
     this.aceleracion.y += -vectorTemporal.y;
-
     
     }, 2000); 
     

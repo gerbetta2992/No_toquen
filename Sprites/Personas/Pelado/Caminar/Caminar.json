@@ -1,5 +1,5 @@
 { "frames": {
-   "Correr_00048 0.png": {
+   "Caminar 0.png": {
     "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -7,7 +7,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 1.png": {
+   "Caminar 1.png": {
     "frame": { "x": 128, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -15,7 +15,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 2.png": {
+   "Caminar 2.png": {
     "frame": { "x": 256, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -23,7 +23,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 3.png": {
+   "Caminar 3.png": {
     "frame": { "x": 384, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -31,7 +31,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 4.png": {
+   "Caminar 4.png": {
     "frame": { "x": 512, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -39,7 +39,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 5.png": {
+   "Caminar 5.png": {
     "frame": { "x": 640, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -47,7 +47,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 6.png": {
+   "Caminar 6.png": {
     "frame": { "x": 768, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -55,7 +55,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 7.png": {
+   "Caminar 7.png": {
     "frame": { "x": 896, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -63,7 +63,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 8.png": {
+   "Caminar 8.png": {
     "frame": { "x": 1024, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -71,7 +71,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 9.png": {
+   "Caminar 9.png": {
     "frame": { "x": 1152, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -79,7 +79,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 10.png": {
+   "Caminar 10.png": {
     "frame": { "x": 1280, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -87,7 +87,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 11.png": {
+   "Caminar 11.png": {
     "frame": { "x": 1408, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -95,7 +95,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 12.png": {
+   "Caminar 12.png": {
     "frame": { "x": 1536, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -103,7 +103,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 13.png": {
+   "Caminar 13.png": {
     "frame": { "x": 1664, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -111,7 +111,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 14.png": {
+   "Caminar 14.png": {
     "frame": { "x": 1792, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -119,7 +119,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 15.png": {
+   "Caminar 15.png": {
     "frame": { "x": 1920, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -127,7 +127,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 16.png": {
+   "Caminar 16.png": {
     "frame": { "x": 2048, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -135,7 +135,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 17.png": {
+   "Caminar 17.png": {
     "frame": { "x": 2176, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -143,7 +143,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 18.png": {
+   "Caminar 18.png": {
     "frame": { "x": 2304, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -151,7 +151,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 19.png": {
+   "Caminar 19.png": {
     "frame": { "x": 2432, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -159,7 +159,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 20.png": {
+   "Caminar 20.png": {
     "frame": { "x": 2560, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -167,7 +167,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 21.png": {
+   "Caminar 21.png": {
     "frame": { "x": 2688, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -175,7 +175,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 22.png": {
+   "Caminar 22.png": {
     "frame": { "x": 2816, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -183,7 +183,7 @@
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
-   "Correr_00048 23.png": {
+   "Caminar 23.png": {
     "frame": { "x": 2944, "y": 0, "w": 128, "h": 72 },
     "rotated": false,
     "trimmed": false,
@@ -193,37 +193,37 @@
    }
  },
   "animations": {
-    "correr": [
-      "Correr_00048 0.png",
-      "Correr_00048 1.png",
-      "Correr_00048 2.png",
-      "Correr_00048 3.png",
-      "Correr_00048 4.png",
-      "Correr_00048 5.png",
-      "Correr_00048 6.png",
-      "Correr_00048 7.png",
-      "Correr_00048 8.png",
-      "Correr_00048 9.png",
-      "Correr_00048 10.png",
-      "Correr_00048 11.png",
-      "Correr_00048 12.png",
-      "Correr_00048 13.png",
-      "Correr_00048 14.png",
-      "Correr_00048 15.png",
-      "Correr_00048 16.png",
-      "Correr_00048 17.png",
-      "Correr_00048 18.png",
-      "Correr_00048 19.png",
-      "Correr_00048 20.png",
-      "Correr_00048 21.png",
-      "Correr_00048 22.png",
-      "Correr_00048 23.png"
+    "caminar": [
+      "Caminar 0.png",
+      "Caminar 1.png",
+      "Caminar 2.png",
+      "Caminar 3.png",
+      "Caminar 4.png",
+      "Caminar 5.png",
+      "Caminar 6.png",
+      "Caminar 7.png",
+      "Caminar 8.png",
+      "Caminar 9.png",
+      "Caminar 10.png",
+      "Caminar 11.png",
+      "Caminar 12.png",
+      "Caminar 13.png",
+      "Caminar 14.png",
+      "Caminar 15.png",
+      "Caminar 16.png",
+      "Caminar 17.png",
+      "Caminar 18.png",
+      "Caminar 19.png",
+      "Caminar 20.png",
+      "Caminar 21.png",
+      "Caminar 22.png",
+      "Caminar 23.png"
     ]
   },
  "meta": {
   "app": "https://www.aseprite.org/",
   "version": "1.3.14-beta1-x64",
-  "image": "Correr.png",
+  "image": "Caminar.png",
   "format": "RGBA8888",
   "size": { "w": 3072, "h": 72 },
   "scale": "1",

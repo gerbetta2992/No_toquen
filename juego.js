@@ -44,12 +44,6 @@ class Juego {
     //cargamos la imagen bunny.png y la guardamos en la variable texture
     //const texture = await PIXI.Assets.load("bunny.png");
 
-    const BrazucaAnim = await PIXI.Assets.load("Sprites/Personas/Brazuca/Correr/Correr.json");
-    //const AfroAnim = await PIXI.Assets.load("Sprites/Afro/Correr/Correr.json");
-    //const PayasoAnim = await PIXI.Assets.load("Sprites/Payaso/Correr/Correr.json");
-    //const PunkAnim = await PIXI.Assets.load("Sprites/Punk/Correr/Correr.json");
-    //const MagoAnim = await PIXI.Assets.load("Sprites/Mago/Correr/Correr.json");
-
     const miraAnim = await PIXI.Assets.load("Sprites/Mira/Mira.json");
 
     const mira = new Mira(miraAnim, 0.5 * this.width, 0.5 * this.height, this);
@@ -87,21 +81,28 @@ class Juego {
   listarPersonas(){
 
     // Ruta de la carpeta principal
-    const personas = ["Brazuca","Afro"]
+    const personas = ["Brazuca","Afro", "Pelado"]
       return personas
   }
 
+  getPersonaRandom(){
+    const lista_personas = this.listarPersonas();
+    const index = Math.floor(Math.random() * lista_personas.length );
+    return lista_personas[index]
+  }
   async cargarPersonas(){
     const lista_personas = this.listarPersonas();
     const animacionesPersonas = {}
     for (const persona of lista_personas) {
       animacionesPersonas[persona] = await PIXI.Assets.load(`Sprites/Personas/${persona}/Correr/Correr.json`);
-      const x = 0.5 * this.width;
-      const y = 0.5 * this.height;
-      const nuevaPersona = new Persona(animacionesPersonas[persona], x, y, this);
-      this.personas.push(nuevaPersona);
     }
-    
+    const x = 0.5 * this.width;
+    const y = 0.5 * this.height;
+    for (let i = 0; i < 10; i++){
+        const personaRandom = this.getPersonaRandom();
+        const nuevaPersona = new Persona(animacionesPersonas[personaRandom], x, y, this);
+        this.personas.push(nuevaPersona);
+      }
   }
 
   agregarInteractividadDelMouse() {

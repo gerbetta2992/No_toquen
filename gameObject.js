@@ -89,10 +89,10 @@ class GameObject {
     //this.aceleracion.x = 0;
     //this.aceleracion.y = 0;
 
-    this.separacion();
+    //this.separacion();
 
-    this.escapar();
-    this.perseguir();
+    //this.escapar();
+    //this.perseguir();
     this.limitarAceleracion();
     this.velocidad.x += this.aceleracion.x * this.juego.pixiApp.ticker.deltaTime;
     this.velocidad.y += this.aceleracion.y * this.juego.pixiApp.ticker.deltaTime;
@@ -163,40 +163,29 @@ async cambiarDeSpriteAnimadoSegunAngulo(persona, escala) {
     let animName, velAnim;
 
     // Determinar hoja y animación según dirección y movimiento
-    if (this.angulo > 90 && this.angulo < 270) {
-      if (moving){// Izquierda
-        this.textureData = await PIXI.Assets.load("Sprites/Personas/"+persona+"/Caminar/Caminar-sheet.json");
-        animName = "caminar";
-        velAnim = 0.5;
-        this.asignarVelocidad(velAnim, velAnim)
-      }    
-      else{
-        this.textureData = await PIXI.Assets.load("Sprites/Personas/"+persona+"/Correr/Correr.json");
-        animName = "correr";
-        velAnim = 1;
-        this.asignarVelocidad(velAnim, velAnim)
-      }                        
+
+    if (moving){
+      this.textureData = await PIXI.Assets.load("Sprites/Personas/"+persona+"/Caminar/Caminar.json");
+      animName = "caminar";
+      velAnim = 0.5;
     }
-    else { // Derecha
-      if (moving){
-        this.textureData = await PIXI.Assets.load("Sprites/Personas/"+persona+"/Caminar/Caminar-sheet.json"); 
-        animName = "caminar"; 
-        velAnim = 0.5; 
-        this.asignarVelocidad(velAnim, velAnim)
-      }
-      else{
-        this.textureData = await PIXI.Assets.load("Sprites/Personas/"+persona+"/Correr/Correr.json");
-        animName = "correr";
-        velAnim = 1;
-        this.asignarVelocidad(velAnim, velAnim)
-      }
-    };
-    
+    else{
+      this.textureData = await PIXI.Assets.load("Sprites/Personas/"+persona+"/Correr/Correr.json");
+      animName = "correr";
+      velAnim = 1;
+    }
+
     if (!this.spritesAnimados[animName]) {
         this.cargarSpritesAnimados(this.textureData, escala, velAnim)
     }
     console.log(velAnim);
-    this.spritesAnimados[animName].scale.x = (this.angulo > 90 && this.angulo < 270) ? escala : -escala;
+    if (this.angulo > 90 && this.angulo < 270){
+      this.spritesAnimados[animName].scale.x = escala;
+    }
+    else{
+      this.spritesAnimados[animName].scale.x = -escala;
+    }
+    
 
     // Cambiar animación activa
     this.cambiarAnimacion(animName);
@@ -282,7 +271,6 @@ async cambiarDeSpriteAnimadoSegunAngulo(persona, escala) {
   render() {
     this.container.x = this.posicion.x;
     this.container.y = this.posicion.y;
-
     //this.container.zIndex = this.posicion.y;
     //this.cambiarVelocidadDeAnimacionSegunVelocidadLineal();
   }

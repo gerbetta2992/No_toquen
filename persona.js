@@ -53,6 +53,8 @@ class Persona extends GameObject {
 
     this.aceleracion.x += -vectorTemporal.x;
     this.aceleracion.y += -vectorTemporal.y;
+
+    
     }, 2000); 
     
   }

@@ -1,0 +1,1268 @@
+{ "frames": {
+   "Rapero 0.png": {
+    "frame": { "x": 0, "y": 0, "w": 36, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 44, "y": 6, "w": 36, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 1.png": {
+    "frame": { "x": 36, "y": 0, "w": 34, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 8, "w": 34, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 2.png": {
+    "frame": { "x": 70, "y": 0, "w": 28, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 28, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 3.png": {
+    "frame": { "x": 98, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 4.png": {
+    "frame": { "x": 124, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 5.png": {
+    "frame": { "x": 150, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 6.png": {
+    "frame": { "x": 176, "y": 0, "w": 28, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 28, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 7.png": {
+    "frame": { "x": 204, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 8.png": {
+    "frame": { "x": 230, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 9.png": {
+    "frame": { "x": 256, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 10.png": {
+    "frame": { "x": 282, "y": 0, "w": 28, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 28, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 11.png": {
+    "frame": { "x": 310, "y": 0, "w": 28, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 28, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 12.png": {
+    "frame": { "x": 338, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 13.png": {
+    "frame": { "x": 366, "y": 0, "w": 28, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 28, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 14.png": {
+    "frame": { "x": 394, "y": 0, "w": 28, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 28, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 15.png": {
+    "frame": { "x": 422, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 16.png": {
+    "frame": { "x": 448, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 17.png": {
+    "frame": { "x": 476, "y": 0, "w": 28, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 28, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 18.png": {
+    "frame": { "x": 504, "y": 0, "w": 32, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 8, "w": 32, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 19.png": {
+    "frame": { "x": 536, "y": 0, "w": 30, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 8, "w": 30, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 20.png": {
+    "frame": { "x": 566, "y": 0, "w": 30, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 8, "w": 30, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 21.png": {
+    "frame": { "x": 596, "y": 0, "w": 34, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 8, "w": 34, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 22.png": {
+    "frame": { "x": 630, "y": 0, "w": 34, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 8, "w": 34, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 23.png": {
+    "frame": { "x": 664, "y": 0, "w": 34, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 34, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 24.png": {
+    "frame": { "x": 698, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 44, "y": 12, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 25.png": {
+    "frame": { "x": 728, "y": 0, "w": 28, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 28, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 26.png": {
+    "frame": { "x": 756, "y": 0, "w": 26, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 12, "w": 26, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 27.png": {
+    "frame": { "x": 782, "y": 0, "w": 22, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 10, "w": 22, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 28.png": {
+    "frame": { "x": 804, "y": 0, "w": 22, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 10, "w": 22, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 29.png": {
+    "frame": { "x": 826, "y": 0, "w": 24, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 10, "w": 24, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 30.png": {
+    "frame": { "x": 850, "y": 0, "w": 26, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 10, "w": 26, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 31.png": {
+    "frame": { "x": 876, "y": 0, "w": 28, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 28, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 32.png": {
+    "frame": { "x": 904, "y": 0, "w": 30, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 30, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 33.png": {
+    "frame": { "x": 934, "y": 0, "w": 32, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 32, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 34.png": {
+    "frame": { "x": 966, "y": 0, "w": 32, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 10, "w": 32, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 35.png": {
+    "frame": { "x": 998, "y": 0, "w": 34, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 10, "w": 34, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 36.png": {
+    "frame": { "x": 1032, "y": 0, "w": 34, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 34, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 37.png": {
+    "frame": { "x": 1066, "y": 0, "w": 34, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 34, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 38.png": {
+    "frame": { "x": 1100, "y": 0, "w": 34, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 34, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 39.png": {
+    "frame": { "x": 1134, "y": 0, "w": 32, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 10, "w": 32, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 40.png": {
+    "frame": { "x": 1166, "y": 0, "w": 30, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 10, "w": 30, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 41.png": {
+    "frame": { "x": 1196, "y": 0, "w": 28, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 10, "w": 28, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 42.png": {
+    "frame": { "x": 1224, "y": 0, "w": 26, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 43.png": {
+    "frame": { "x": 1250, "y": 0, "w": 24, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 8, "w": 24, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 44.png": {
+    "frame": { "x": 1274, "y": 0, "w": 22, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 8, "w": 22, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 45.png": {
+    "frame": { "x": 1296, "y": 0, "w": 22, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 22, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 46.png": {
+    "frame": { "x": 1318, "y": 0, "w": 26, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 10, "w": 26, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 47.png": {
+    "frame": { "x": 1344, "y": 0, "w": 28, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 28, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 48.png": {
+    "frame": { "x": 1372, "y": 0, "w": 32, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 42, "y": 12, "w": 32, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 49.png": {
+    "frame": { "x": 1404, "y": 0, "w": 20, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 6, "w": 20, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 50.png": {
+    "frame": { "x": 1424, "y": 0, "w": 24, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 6, "w": 24, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 51.png": {
+    "frame": { "x": 1448, "y": 0, "w": 26, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 6, "w": 26, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 52.png": {
+    "frame": { "x": 1474, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 53.png": {
+    "frame": { "x": 1502, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 54.png": {
+    "frame": { "x": 1530, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 55.png": {
+    "frame": { "x": 1558, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 56.png": {
+    "frame": { "x": 1586, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 57.png": {
+    "frame": { "x": 1614, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 58.png": {
+    "frame": { "x": 1642, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 59.png": {
+    "frame": { "x": 1670, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 60.png": {
+    "frame": { "x": 1698, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 61.png": {
+    "frame": { "x": 1726, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 62.png": {
+    "frame": { "x": 1754, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 63.png": {
+    "frame": { "x": 1782, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 64.png": {
+    "frame": { "x": 1810, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 65.png": {
+    "frame": { "x": 1838, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 66.png": {
+    "frame": { "x": 1866, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 67.png": {
+    "frame": { "x": 1894, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 68.png": {
+    "frame": { "x": 1922, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 69.png": {
+    "frame": { "x": 1950, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 70.png": {
+    "frame": { "x": 1978, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 71.png": {
+    "frame": { "x": 2006, "y": 0, "w": 24, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 6, "w": 24, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 72.png": {
+    "frame": { "x": 2030, "y": 0, "w": 24, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 6, "w": 24, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 73.png": {
+    "frame": { "x": 2054, "y": 0, "w": 20, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 6, "w": 20, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 74.png": {
+    "frame": { "x": 2074, "y": 0, "w": 20, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 6, "w": 20, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 75.png": {
+    "frame": { "x": 2094, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 76.png": {
+    "frame": { "x": 2120, "y": 0, "w": 26, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 10, "w": 26, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 77.png": {
+    "frame": { "x": 2146, "y": 0, "w": 28, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 10, "w": 28, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 78.png": {
+    "frame": { "x": 2174, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 10, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 79.png": {
+    "frame": { "x": 2204, "y": 0, "w": 34, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 8, "w": 34, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 80.png": {
+    "frame": { "x": 2238, "y": 0, "w": 38, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 8, "w": 38, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 81.png": {
+    "frame": { "x": 2276, "y": 0, "w": 42, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 44, "y": 6, "w": 42, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 82.png": {
+    "frame": { "x": 2318, "y": 0, "w": 44, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 42, "y": 6, "w": 44, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 83.png": {
+    "frame": { "x": 2362, "y": 0, "w": 48, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 40, "y": 6, "w": 48, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 84.png": {
+    "frame": { "x": 2410, "y": 0, "w": 48, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 40, "y": 6, "w": 48, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 85.png": {
+    "frame": { "x": 2458, "y": 0, "w": 52, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 8, "w": 52, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 86.png": {
+    "frame": { "x": 2510, "y": 0, "w": 52, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 8, "w": 52, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 87.png": {
+    "frame": { "x": 2562, "y": 0, "w": 52, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 10, "w": 52, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 88.png": {
+    "frame": { "x": 2614, "y": 0, "w": 52, "h": 42 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 12, "w": 52, "h": 42 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 89.png": {
+    "frame": { "x": 2666, "y": 0, "w": 52, "h": 42 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 12, "w": 52, "h": 42 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 90.png": {
+    "frame": { "x": 2718, "y": 0, "w": 54, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 14, "w": 54, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 91.png": {
+    "frame": { "x": 2772, "y": 0, "w": 54, "h": 38 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 16, "w": 54, "h": 38 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 92.png": {
+    "frame": { "x": 2826, "y": 0, "w": 54, "h": 36 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 18, "w": 54, "h": 36 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 93.png": {
+    "frame": { "x": 2880, "y": 0, "w": 54, "h": 34 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 20, "w": 54, "h": 34 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 94.png": {
+    "frame": { "x": 2934, "y": 0, "w": 54, "h": 34 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 22, "w": 54, "h": 34 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 95.png": {
+    "frame": { "x": 2988, "y": 0, "w": 54, "h": 30 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 26, "w": 54, "h": 30 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 96.png": {
+    "frame": { "x": 3042, "y": 0, "w": 56, "h": 30 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 28, "w": 56, "h": 30 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 97.png": {
+    "frame": { "x": 3098, "y": 0, "w": 56, "h": 26 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 32, "w": 56, "h": 26 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 98.png": {
+    "frame": { "x": 3154, "y": 0, "w": 56, "h": 24 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 36, "w": 56, "h": 24 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 99.png": {
+    "frame": { "x": 3210, "y": 0, "w": 56, "h": 24 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 38, "w": 56, "h": 24 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 100.png": {
+    "frame": { "x": 3266, "y": 0, "w": 56, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 40, "w": 56, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 101.png": {
+    "frame": { "x": 3322, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 102.png": {
+    "frame": { "x": 3376, "y": 0, "w": 54, "h": 24 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 38, "w": 54, "h": 24 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 103.png": {
+    "frame": { "x": 3430, "y": 0, "w": 56, "h": 24 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 38, "w": 56, "h": 24 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 104.png": {
+    "frame": { "x": 3486, "y": 0, "w": 56, "h": 24 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 38, "w": 56, "h": 24 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 105.png": {
+    "frame": { "x": 3542, "y": 0, "w": 56, "h": 24 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 38, "w": 56, "h": 24 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 106.png": {
+    "frame": { "x": 3598, "y": 0, "w": 56, "h": 24 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 38, "w": 56, "h": 24 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 107.png": {
+    "frame": { "x": 3654, "y": 0, "w": 20, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 6, "w": 20, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 108.png": {
+    "frame": { "x": 3674, "y": 0, "w": 20, "h": 58 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 4, "w": 20, "h": 58 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 109.png": {
+    "frame": { "x": 3694, "y": 0, "w": 20, "h": 60 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 2, "w": 20, "h": 60 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 110.png": {
+    "frame": { "x": 3714, "y": 0, "w": 20, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 20, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 111.png": {
+    "frame": { "x": 3734, "y": 0, "w": 20, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 20, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 112.png": {
+    "frame": { "x": 3754, "y": 0, "w": 20, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 20, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 113.png": {
+    "frame": { "x": 3774, "y": 0, "w": 20, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 20, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 114.png": {
+    "frame": { "x": 3794, "y": 0, "w": 20, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 20, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 115.png": {
+    "frame": { "x": 3814, "y": 0, "w": 20, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 20, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 116.png": {
+    "frame": { "x": 3834, "y": 0, "w": 20, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 20, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 117.png": {
+    "frame": { "x": 3854, "y": 0, "w": 20, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 20, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 118.png": {
+    "frame": { "x": 3874, "y": 0, "w": 20, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 20, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 119.png": {
+    "frame": { "x": 3894, "y": 0, "w": 20, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 20, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 120.png": {
+    "frame": { "x": 3914, "y": 0, "w": 20, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 20, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 121.png": {
+    "frame": { "x": 3934, "y": 0, "w": 20, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 20, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 122.png": {
+    "frame": { "x": 3954, "y": 0, "w": 20, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 6, "w": 20, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 123.png": {
+    "frame": { "x": 3974, "y": 0, "w": 20, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 10, "w": 20, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 124.png": {
+    "frame": { "x": 3994, "y": 0, "w": 20, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 14, "w": 20, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 125.png": {
+    "frame": { "x": 4014, "y": 0, "w": 20, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 16, "w": 20, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 126.png": {
+    "frame": { "x": 4034, "y": 0, "w": 22, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 22, "w": 22, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 127.png": {
+    "frame": { "x": 4056, "y": 0, "w": 22, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 22, "w": 22, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 128.png": {
+    "frame": { "x": 4078, "y": 0, "w": 20, "h": 38 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 24, "w": 20, "h": 38 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 129.png": {
+    "frame": { "x": 4098, "y": 0, "w": 22, "h": 38 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 26, "w": 22, "h": 38 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 130.png": {
+    "frame": { "x": 4120, "y": 0, "w": 22, "h": 36 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 28, "w": 22, "h": 36 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 131.png": {
+    "frame": { "x": 4142, "y": 0, "w": 20, "h": 34 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 56, "y": 30, "w": 20, "h": 34 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 132.png": {
+    "frame": { "x": 4162, "y": 0, "w": 28, "h": 34 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 30, "w": 28, "h": 34 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 133.png": {
+    "frame": { "x": 4190, "y": 0, "w": 40, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 32, "w": 40, "h": 32 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 134.png": {
+    "frame": { "x": 4230, "y": 0, "w": 44, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 60, "y": 24, "w": 44, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 135.png": {
+    "frame": { "x": 4274, "y": 0, "w": 50, "h": 42 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 62, "y": 24, "w": 50, "h": 42 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 136.png": {
+    "frame": { "x": 4324, "y": 0, "w": 52, "h": 30 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 62, "y": 38, "w": 52, "h": 30 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Rapero 137.png": {
+    "frame": { "x": 4376, "y": 0, "w": 54, "h": 20 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 62, "y": 48, "w": 54, "h": 20 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   }
+ },
+   "animations": {
+    "caminar": [
+      "Rapero 0.png",
+      "Rapero 1.png",
+      "Rapero 2.png",
+      "Rapero 3.png",
+      "Rapero 4.png",
+      "Rapero 5.png",
+      "Rapero 6.png",
+      "Rapero 7.png",
+      "Rapero 8.png",
+      "Rapero 9.png",
+      "Rapero 10.png",
+      "Rapero 11.png",
+      "Rapero 12.png",
+      "Rapero 13.png",
+      "Rapero 14.png",
+      "Rapero 15.png",
+      "Rapero 16.png",
+      "Rapero 17.png",
+      "Rapero 18.png",
+      "Rapero 19.png",
+      "Rapero 20.png",
+      "Rapero 21.png",
+      "Rapero 22.png",
+      "Rapero 23.png"
+    ],
+    "correr": [
+      "Rapero 24.png",
+      "Rapero 25.png",
+      "Rapero 26.png",
+      "Rapero 27.png",
+      "Rapero 28.png",
+      "Rapero 29.png",
+      "Rapero 30.png",
+      "Rapero 31.png",
+      "Rapero 32.png",
+      "Rapero 33.png",
+      "Rapero 34.png",
+      "Rapero 35.png",
+      "Rapero 36.png",
+      "Rapero 37.png",
+      "Rapero 38.png",
+      "Rapero 39.png",
+      "Rapero 40.png",
+      "Rapero 41.png",
+      "Rapero 42.png",
+      "Rapero 43.png",
+      "Rapero 44.png",
+      "Rapero 45.png",
+      "Rapero 46.png",
+      "Rapero 47.png"
+    ],
+    "idle":[
+      "Rapero 50.png",
+      "Rapero 51.png",
+      "Rapero 52.png",
+      "Rapero 53.png",
+      "Rapero 54.png",
+      "Rapero 55.png",
+      "Rapero 56.png",
+      "Rapero 57.png",
+      "Rapero 58.png",
+      "Rapero 59.png",
+      "Rapero 60.png",
+      "Rapero 61.png",
+      "Rapero 62.png",
+      "Rapero 63.png",
+      "Rapero 64.png",
+      "Rapero 65.png",
+      "Rapero 66.png",
+      "Rapero 67.png",
+      "Rapero 68.png",
+      "Rapero 69.png",
+      "Rapero 70.png",
+      "Rapero 71.png",
+      "Rapero 72.png",
+      "Rapero 73.png",
+      "Rapero 74.png"
+    ],
+    "saltar":[
+      "Rapero 76.png",
+      "Rapero 77.png",
+      "Rapero 78.png",
+      "Rapero 79.png",
+      "Rapero 80.png",
+      "Rapero 81.png",
+      "Rapero 82.png",
+      "Rapero 83.png",
+      "Rapero 84.png",
+      "Rapero 85.png",
+      "Rapero 86.png",
+      "Rapero 87.png",
+      "Rapero 88.png",
+      "Rapero 89.png",
+      "Rapero 90.png",
+      "Rapero 91.png",
+      "Rapero 92.png",
+      "Rapero 93.png",
+      "Rapero 94.png",
+      "Rapero 95.png",
+      "Rapero 96.png",
+      "Rapero 97.png",
+      "Rapero 98.png",
+      "Rapero 99.png",
+      "Rapero 100.png",
+      "Rapero 101.png",
+      "Rapero 102.png",
+      "Rapero 103.png",
+      "Rapero 104.png",
+      "Rapero 105.png",
+      "Rapero 106.png"
+    ],
+    "muerte":[
+      "Rapero 108.png",
+      "Rapero 109.png",
+      "Rapero 110.png",
+      "Rapero 111.png",
+      "Rapero 112.png",
+      "Rapero 113.png",
+      "Rapero 114.png",
+      "Rapero 115.png",
+      "Rapero 116.png",
+      "Rapero 117.png",
+      "Rapero 118.png",
+      "Rapero 119.png",
+      "Rapero 120.png",
+      "Rapero 121.png",
+      "Rapero 122.png",
+      "Rapero 123.png",
+      "Rapero 124.png",
+      "Rapero 125.png",
+      "Rapero 126.png",
+      "Rapero 127.png",
+      "Rapero 128.png",
+      "Rapero 129.png",
+      "Rapero 130.png",
+      "Rapero 131.png",
+      "Rapero 132.png",
+      "Rapero 133.png",
+      "Rapero 134.png",
+      "Rapero 135.png",
+      "Rapero 136.png",
+      "Rapero 137.png"
+    ]
+  },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.14-beta1-x64",
+  "image": "Rapero.png",
+  "format": "RGBA8888",
+  "size": { "w": 4430, "h": 62 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

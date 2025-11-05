@@ -1,0 +1,456 @@
+{ "frames": {
+   "Payaso 0.png": {
+    "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 1.png": {
+    "frame": { "x": 128, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 2.png": {
+    "frame": { "x": 256, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 3.png": {
+    "frame": { "x": 384, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 4.png": {
+    "frame": { "x": 512, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 5.png": {
+    "frame": { "x": 640, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 6.png": {
+    "frame": { "x": 768, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 7.png": {
+    "frame": { "x": 896, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 8.png": {
+    "frame": { "x": 1024, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 9.png": {
+    "frame": { "x": 1152, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 10.png": {
+    "frame": { "x": 1280, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 11.png": {
+    "frame": { "x": 1408, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 12.png": {
+    "frame": { "x": 1536, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 13.png": {
+    "frame": { "x": 1664, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 14.png": {
+    "frame": { "x": 1792, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 15.png": {
+    "frame": { "x": 1920, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 16.png": {
+    "frame": { "x": 2048, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 17.png": {
+    "frame": { "x": 2176, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 18.png": {
+    "frame": { "x": 2304, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 19.png": {
+    "frame": { "x": 2432, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 20.png": {
+    "frame": { "x": 2560, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 21.png": {
+    "frame": { "x": 2688, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 22.png": {
+    "frame": { "x": 2816, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 23.png": {
+    "frame": { "x": 2944, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 24.png": {
+    "frame": { "x": 3072, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 25.png": {
+    "frame": { "x": 3200, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 26.png": {
+    "frame": { "x": 3328, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 27.png": {
+    "frame": { "x": 3456, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 28.png": {
+    "frame": { "x": 3584, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 29.png": {
+    "frame": { "x": 3712, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 30.png": {
+    "frame": { "x": 3840, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 31.png": {
+    "frame": { "x": 3968, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 32.png": {
+    "frame": { "x": 4096, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 33.png": {
+    "frame": { "x": 4224, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 34.png": {
+    "frame": { "x": 4352, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 35.png": {
+    "frame": { "x": 4480, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 36.png": {
+    "frame": { "x": 4608, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 37.png": {
+    "frame": { "x": 4736, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 38.png": {
+    "frame": { "x": 4864, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 39.png": {
+    "frame": { "x": 4992, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 40.png": {
+    "frame": { "x": 5120, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 41.png": {
+    "frame": { "x": 5248, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 42.png": {
+    "frame": { "x": 5376, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 43.png": {
+    "frame": { "x": 5504, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 44.png": {
+    "frame": { "x": 5632, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 45.png": {
+    "frame": { "x": 5760, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 46.png": {
+    "frame": { "x": 5888, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Payaso 47.png": {
+    "frame": { "x": 6016, "y": 0, "w": 128, "h": 72 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   }
+ },
+ "animations": {
+    "caminar": [
+      "Payaso 0.png",
+      "Payaso 1.png",
+      "Payaso 2.png",
+      "Payaso 3.png",
+      "Payaso 4.png",
+      "Payaso 5.png",
+      "Payaso 6.png",
+      "Payaso 7.png",
+      "Payaso 8.png",
+      "Payaso 9.png",
+      "Payaso 10.png",
+      "Payaso 11.png",
+      "Payaso 12.png",
+      "Payaso 13.png",
+      "Payaso 14.png",
+      "Payaso 15.png",
+      "Payaso 16.png",
+      "Payaso 17.png",
+      "Payaso 18.png",
+      "Payaso 19.png",
+      "Payaso 20.png",
+      "Payaso 21.png",
+      "Payaso 22.png",
+      "Payaso 23.png"
+    ],
+    "correr": [
+      "Payaso 24.png",
+      "Payaso 25.png",
+      "Payaso 26.png",
+      "Payaso 27.png",
+      "Payaso 28.png",
+      "Payaso 29.png",
+      "Payaso 30.png",
+      "Payaso 31.png",
+      "Payaso 32.png",
+      "Payaso 33.png",
+      "Payaso 34.png",
+      "Payaso 35.png",
+      "Payaso 36.png",
+      "Payaso 37.png",
+      "Payaso 38.png",
+      "Payaso 39.png",
+      "Payaso 40.png",
+      "Payaso 41.png",
+      "Payaso 42.png",
+      "Payaso 43.png",
+      "Payaso 44.png",
+      "Payaso 45.png",
+      "Payaso 46.png",
+      "Payaso 47.png"
+    ]
+  },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.14-beta1-x64",
+  "image": "Payaso.png",
+  "format": "RGBA8888",
+  "size": { "w": 6144, "h": 72 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

@@ -1,0 +1,377 @@
+{ "frames": {
+   "Patova 0.png": {
+    "frame": { "x": 0, "y": 0, "w": 48, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 44, "y": 20, "w": 48, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 1.png": {
+    "frame": { "x": 48, "y": 0, "w": 44, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 20, "w": 44, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 2.png": {
+    "frame": { "x": 92, "y": 0, "w": 42, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 20, "w": 42, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 3.png": {
+    "frame": { "x": 134, "y": 0, "w": 40, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 20, "w": 40, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 4.png": {
+    "frame": { "x": 174, "y": 0, "w": 40, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 18, "w": 40, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 5.png": {
+    "frame": { "x": 214, "y": 0, "w": 40, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 18, "w": 40, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 6.png": {
+    "frame": { "x": 254, "y": 0, "w": 42, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 16, "w": 42, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 7.png": {
+    "frame": { "x": 296, "y": 0, "w": 42, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 16, "w": 42, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 8.png": {
+    "frame": { "x": 338, "y": 0, "w": 42, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 16, "w": 42, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 9.png": {
+    "frame": { "x": 380, "y": 0, "w": 42, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 16, "w": 42, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 10.png": {
+    "frame": { "x": 422, "y": 0, "w": 42, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 16, "w": 42, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 11.png": {
+    "frame": { "x": 464, "y": 0, "w": 44, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 18, "w": 44, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 12.png": {
+    "frame": { "x": 508, "y": 0, "w": 44, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 20, "w": 44, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 13.png": {
+    "frame": { "x": 552, "y": 0, "w": 44, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 20, "w": 44, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 14.png": {
+    "frame": { "x": 596, "y": 0, "w": 44, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 20, "w": 44, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 15.png": {
+    "frame": { "x": 640, "y": 0, "w": 44, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 18, "w": 44, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 16.png": {
+    "frame": { "x": 684, "y": 0, "w": 42, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 18, "w": 42, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 17.png": {
+    "frame": { "x": 726, "y": 0, "w": 42, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 18, "w": 42, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 18.png": {
+    "frame": { "x": 768, "y": 0, "w": 42, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 16, "w": 42, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 19.png": {
+    "frame": { "x": 810, "y": 0, "w": 42, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 16, "w": 42, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 20.png": {
+    "frame": { "x": 852, "y": 0, "w": 42, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 16, "w": 42, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 21.png": {
+    "frame": { "x": 894, "y": 0, "w": 42, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 16, "w": 42, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 22.png": {
+    "frame": { "x": 936, "y": 0, "w": 46, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 18, "w": 46, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 23.png": {
+    "frame": { "x": 982, "y": 0, "w": 48, "h": 42 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 20, "w": 48, "h": 42 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 24.png": {
+    "frame": { "x": 1030, "y": 0, "w": 36, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 14, "w": 36, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 25.png": {
+    "frame": { "x": 1066, "y": 0, "w": 38, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 14, "w": 38, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 26.png": {
+    "frame": { "x": 1104, "y": 0, "w": 38, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 16, "w": 38, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 27.png": {
+    "frame": { "x": 1142, "y": 0, "w": 38, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 20, "w": 38, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 28.png": {
+    "frame": { "x": 1180, "y": 0, "w": 40, "h": 42 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 22, "w": 40, "h": 42 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 29.png": {
+    "frame": { "x": 1220, "y": 0, "w": 44, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 24, "w": 44, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 30.png": {
+    "frame": { "x": 1264, "y": 0, "w": 46, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 24, "w": 46, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 31.png": {
+    "frame": { "x": 1310, "y": 0, "w": 46, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 24, "w": 46, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 32.png": {
+    "frame": { "x": 1356, "y": 0, "w": 46, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 24, "w": 46, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 33.png": {
+    "frame": { "x": 1402, "y": 0, "w": 46, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 24, "w": 46, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 34.png": {
+    "frame": { "x": 1448, "y": 0, "w": 46, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 24, "w": 46, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 35.png": {
+    "frame": { "x": 1494, "y": 0, "w": 46, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 24, "w": 46, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 36.png": {
+    "frame": { "x": 1540, "y": 0, "w": 46, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 24, "w": 46, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 37.png": {
+    "frame": { "x": 1586, "y": 0, "w": 46, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 24, "w": 46, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Patova 38.png": {
+    "frame": { "x": 1632, "y": 0, "w": 46, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 24, "w": 46, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   }
+ },
+  "animations": {
+    "correr": [
+      "Patova 0.png",
+      "Patova 1.png",
+      "Patova 2.png",
+      "Patova 3.png",
+      "Patova 4.png",
+      "Patova 5.png",
+      "Patova 6.png",
+      "Patova 7.png",
+      "Patova 8.png",
+      "Patova 9.png",
+      "Patova 10.png",
+      "Patova 11.png",
+      "Patova 12.png",
+      "Patova 13.png",
+      "Patova 14.png",
+      "Patova 15.png",
+      "Patova 16.png",
+      "Patova 17.png",
+      "Patova 18.png",
+      "Patova 19.png",
+      "Patova 20.png",
+      "Patova 21.png",
+      "Patova 22.png",
+      "Patova 23.png"
+    ],
+    "idle":[
+      "Patova 24.png",
+      "Patova 25.png",
+      "Patova 26.png",
+      "Patova 27.png",
+      "Patova 28.png",
+      "Patova 29.png",
+      "Patova 30.png"
+    ],
+    "disparar":[
+      "Patova 31.png",
+      "Patova 32.png",
+      "Patova 33.png",
+      "Patova 34.png",
+      "Patova 35.png",
+      "Patova 36.png",
+      "Patova 37.png",
+      "Patova 38.png"
+    ]
+  },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.14-beta1-x64",
+  "image": "Patova.png",
+  "format": "RGBA8888",
+  "size": { "w": 1678, "h": 48 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

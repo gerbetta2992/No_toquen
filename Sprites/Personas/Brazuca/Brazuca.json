@@ -1,385 +1,1105 @@
 { "frames": {
    "Brazuca 0.png": {
-    "frame": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 0, "y": 0, "w": 34, "h": 56 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 44, "y": 6, "w": 34, "h": 56 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 1.png": {
-    "frame": { "x": 128, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 34, "y": 0, "w": 32, "h": 56 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 32, "h": 56 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 2.png": {
-    "frame": { "x": 256, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 66, "y": 0, "w": 28, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 28, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 3.png": {
-    "frame": { "x": 384, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 94, "y": 0, "w": 26, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 4.png": {
-    "frame": { "x": 512, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 120, "y": 0, "w": 26, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 5.png": {
-    "frame": { "x": 640, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 146, "y": 0, "w": 26, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 6.png": {
-    "frame": { "x": 768, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 172, "y": 0, "w": 26, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 7.png": {
-    "frame": { "x": 896, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 198, "y": 0, "w": 26, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 8.png": {
-    "frame": { "x": 1024, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 224, "y": 0, "w": 26, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 9.png": {
-    "frame": { "x": 1152, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 250, "y": 0, "w": 26, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 10.png": {
-    "frame": { "x": 1280, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 276, "y": 0, "w": 26, "h": 56 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 6, "w": 26, "h": 56 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 11.png": {
-    "frame": { "x": 1408, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 302, "y": 0, "w": 26, "h": 56 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 6, "w": 26, "h": 56 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 12.png": {
-    "frame": { "x": 1536, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 328, "y": 0, "w": 26, "h": 56 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 6, "w": 26, "h": 56 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 13.png": {
-    "frame": { "x": 1664, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 354, "y": 0, "w": 26, "h": 56 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 6, "w": 26, "h": 56 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 14.png": {
-    "frame": { "x": 1792, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 380, "y": 0, "w": 26, "h": 56 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 6, "w": 26, "h": 56 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 15.png": {
-    "frame": { "x": 1920, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 406, "y": 0, "w": 26, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 16.png": {
-    "frame": { "x": 2048, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 432, "y": 0, "w": 28, "h": 56 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 28, "h": 56 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 17.png": {
-    "frame": { "x": 2176, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 460, "y": 0, "w": 28, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 28, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 18.png": {
-    "frame": { "x": 2304, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 488, "y": 0, "w": 30, "h": 56 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 8, "w": 30, "h": 56 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 19.png": {
-    "frame": { "x": 2432, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 518, "y": 0, "w": 30, "h": 56 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 8, "w": 30, "h": 56 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 20.png": {
-    "frame": { "x": 2560, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 548, "y": 0, "w": 30, "h": 56 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 8, "w": 30, "h": 56 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 21.png": {
-    "frame": { "x": 2688, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 578, "y": 0, "w": 32, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 8, "w": 32, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 22.png": {
-    "frame": { "x": 2816, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 610, "y": 0, "w": 32, "h": 56 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 32, "h": 56 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 23.png": {
-    "frame": { "x": 2944, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 642, "y": 0, "w": 32, "h": 56 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 32, "h": 56 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 24.png": {
-    "frame": { "x": 3072, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 674, "y": 0, "w": 34, "h": 52 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 44, "y": 12, "w": 34, "h": 52 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 25.png": {
-    "frame": { "x": 3200, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 708, "y": 0, "w": 30, "h": 52 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 30, "h": 52 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 26.png": {
-    "frame": { "x": 3328, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 738, "y": 0, "w": 28, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 10, "w": 28, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 27.png": {
-    "frame": { "x": 3456, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 766, "y": 0, "w": 24, "h": 52 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 10, "w": 24, "h": 52 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 28.png": {
-    "frame": { "x": 3584, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 790, "y": 0, "w": 24, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 10, "w": 24, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 29.png": {
-    "frame": { "x": 3712, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 814, "y": 0, "w": 24, "h": 52 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 10, "w": 24, "h": 52 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 30.png": {
-    "frame": { "x": 3840, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 838, "y": 0, "w": 26, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 31.png": {
-    "frame": { "x": 3968, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 864, "y": 0, "w": 28, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 28, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 32.png": {
-    "frame": { "x": 4096, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 892, "y": 0, "w": 30, "h": 52 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 30, "h": 52 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 33.png": {
-    "frame": { "x": 4224, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 922, "y": 0, "w": 30, "h": 52 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 30, "h": 52 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 34.png": {
-    "frame": { "x": 4352, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 952, "y": 0, "w": 32, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 32, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 35.png": {
-    "frame": { "x": 4480, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 984, "y": 0, "w": 34, "h": 52 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 10, "w": 34, "h": 52 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 36.png": {
-    "frame": { "x": 4608, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 1018, "y": 0, "w": 34, "h": 52 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 34, "h": 52 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 37.png": {
-    "frame": { "x": 4736, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 1052, "y": 0, "w": 34, "h": 52 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 34, "h": 52 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 38.png": {
-    "frame": { "x": 4864, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 1086, "y": 0, "w": 32, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 10, "w": 32, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 39.png": {
-    "frame": { "x": 4992, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 1118, "y": 0, "w": 32, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 10, "w": 32, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 40.png": {
-    "frame": { "x": 5120, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 1150, "y": 0, "w": 30, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 10, "w": 30, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 41.png": {
-    "frame": { "x": 5248, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 1180, "y": 0, "w": 28, "h": 56 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 28, "h": 56 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 42.png": {
-    "frame": { "x": 5376, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 1208, "y": 0, "w": 26, "h": 56 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 56 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 43.png": {
-    "frame": { "x": 5504, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 1234, "y": 0, "w": 24, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 8, "w": 24, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 44.png": {
-    "frame": { "x": 5632, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 1258, "y": 0, "w": 24, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 8, "w": 24, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 45.png": {
-    "frame": { "x": 5760, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 1282, "y": 0, "w": 26, "h": 54 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 46.png": {
-    "frame": { "x": 5888, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 1308, "y": 0, "w": 30, "h": 52 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 10, "w": 30, "h": 52 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    },
    "Brazuca 47.png": {
-    "frame": { "x": 6016, "y": 0, "w": 128, "h": 72 },
+    "frame": { "x": 1338, "y": 0, "w": 32, "h": 50 },
     "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 72 },
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 32, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 48.png": {
+    "frame": { "x": 1370, "y": 0, "w": 36, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 42, "y": 12, "w": 36, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 49.png": {
+    "frame": { "x": 1406, "y": 0, "w": 20, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 6, "w": 20, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 50.png": {
+    "frame": { "x": 1426, "y": 0, "w": 24, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 6, "w": 24, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 51.png": {
+    "frame": { "x": 1450, "y": 0, "w": 26, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 6, "w": 26, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 52.png": {
+    "frame": { "x": 1476, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 53.png": {
+    "frame": { "x": 1504, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 54.png": {
+    "frame": { "x": 1532, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 55.png": {
+    "frame": { "x": 1560, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 56.png": {
+    "frame": { "x": 1588, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 57.png": {
+    "frame": { "x": 1616, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 58.png": {
+    "frame": { "x": 1644, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 59.png": {
+    "frame": { "x": 1672, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 60.png": {
+    "frame": { "x": 1700, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 61.png": {
+    "frame": { "x": 1728, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 62.png": {
+    "frame": { "x": 1756, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 63.png": {
+    "frame": { "x": 1784, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 64.png": {
+    "frame": { "x": 1812, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 65.png": {
+    "frame": { "x": 1840, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 66.png": {
+    "frame": { "x": 1868, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 67.png": {
+    "frame": { "x": 1896, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 68.png": {
+    "frame": { "x": 1924, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 69.png": {
+    "frame": { "x": 1952, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 70.png": {
+    "frame": { "x": 1980, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 71.png": {
+    "frame": { "x": 2008, "y": 0, "w": 24, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 6, "w": 24, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 72.png": {
+    "frame": { "x": 2032, "y": 0, "w": 24, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 6, "w": 24, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 73.png": {
+    "frame": { "x": 2056, "y": 0, "w": 20, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 6, "w": 20, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 74.png": {
+    "frame": { "x": 2076, "y": 0, "w": 20, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 6, "w": 20, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 75.png": {
+    "frame": { "x": 2096, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 76.png": {
+    "frame": { "x": 2122, "y": 0, "w": 26, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 10, "w": 26, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 77.png": {
+    "frame": { "x": 2148, "y": 0, "w": 28, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 10, "w": 28, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 78.png": {
+    "frame": { "x": 2176, "y": 0, "w": 32, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 32, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 79.png": {
+    "frame": { "x": 2208, "y": 0, "w": 34, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 8, "w": 34, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 80.png": {
+    "frame": { "x": 2242, "y": 0, "w": 38, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 8, "w": 38, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 81.png": {
+    "frame": { "x": 2280, "y": 0, "w": 42, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 44, "y": 6, "w": 42, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 82.png": {
+    "frame": { "x": 2322, "y": 0, "w": 44, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 42, "y": 6, "w": 44, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 83.png": {
+    "frame": { "x": 2366, "y": 0, "w": 48, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 40, "y": 6, "w": 48, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 84.png": {
+    "frame": { "x": 2414, "y": 0, "w": 48, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 40, "y": 6, "w": 48, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 85.png": {
+    "frame": { "x": 2462, "y": 0, "w": 52, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 8, "w": 52, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 86.png": {
+    "frame": { "x": 2514, "y": 0, "w": 52, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 8, "w": 52, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 87.png": {
+    "frame": { "x": 2566, "y": 0, "w": 52, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 10, "w": 52, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 88.png": {
+    "frame": { "x": 2618, "y": 0, "w": 52, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 10, "w": 52, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 89.png": {
+    "frame": { "x": 2670, "y": 0, "w": 52, "h": 42 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 12, "w": 52, "h": 42 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 90.png": {
+    "frame": { "x": 2722, "y": 0, "w": 54, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 14, "w": 54, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 91.png": {
+    "frame": { "x": 2776, "y": 0, "w": 54, "h": 38 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 16, "w": 54, "h": 38 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 92.png": {
+    "frame": { "x": 2830, "y": 0, "w": 54, "h": 36 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 18, "w": 54, "h": 36 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 93.png": {
+    "frame": { "x": 2884, "y": 0, "w": 54, "h": 34 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 20, "w": 54, "h": 34 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 94.png": {
+    "frame": { "x": 2938, "y": 0, "w": 54, "h": 34 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 22, "w": 54, "h": 34 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 95.png": {
+    "frame": { "x": 2992, "y": 0, "w": 54, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 24, "w": 54, "h": 32 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 96.png": {
+    "frame": { "x": 3046, "y": 0, "w": 56, "h": 28 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 28, "w": 56, "h": 28 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 97.png": {
+    "frame": { "x": 3102, "y": 0, "w": 56, "h": 26 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 32, "w": 56, "h": 26 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 98.png": {
+    "frame": { "x": 3158, "y": 0, "w": 56, "h": 24 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 36, "w": 56, "h": 24 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 99.png": {
+    "frame": { "x": 3214, "y": 0, "w": 58, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 40, "w": 58, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 100.png": {
+    "frame": { "x": 3272, "y": 0, "w": 58, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 40, "w": 58, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 101.png": {
+    "frame": { "x": 3330, "y": 0, "w": 56, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 56, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 102.png": {
+    "frame": { "x": 3386, "y": 0, "w": 56, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 38, "w": 56, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 103.png": {
+    "frame": { "x": 3442, "y": 0, "w": 56, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 38, "w": 56, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 104.png": {
+    "frame": { "x": 3498, "y": 0, "w": 56, "h": 24 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 38, "w": 56, "h": 24 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 105.png": {
+    "frame": { "x": 3554, "y": 0, "w": 56, "h": 24 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 38, "w": 56, "h": 24 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 106.png": {
+    "frame": { "x": 3610, "y": 0, "w": 56, "h": 24 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 38, "w": 56, "h": 24 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 107.png": {
+    "frame": { "x": 3666, "y": 0, "w": 20, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 20, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 108.png": {
+    "frame": { "x": 3686, "y": 0, "w": 20, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 6, "w": 20, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 109.png": {
+    "frame": { "x": 3706, "y": 0, "w": 20, "h": 58 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 4, "w": 20, "h": 58 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 110.png": {
+    "frame": { "x": 3726, "y": 0, "w": 20, "h": 58 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 4, "w": 20, "h": 58 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 111.png": {
+    "frame": { "x": 3746, "y": 0, "w": 20, "h": 60 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 2, "w": 20, "h": 60 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 112.png": {
+    "frame": { "x": 3766, "y": 0, "w": 20, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 20, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 113.png": {
+    "frame": { "x": 3786, "y": 0, "w": 20, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 20, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 114.png": {
+    "frame": { "x": 3806, "y": 0, "w": 20, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 20, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 115.png": {
+    "frame": { "x": 3826, "y": 0, "w": 20, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 20, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 116.png": {
+    "frame": { "x": 3846, "y": 0, "w": 20, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 20, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 117.png": {
+    "frame": { "x": 3866, "y": 0, "w": 20, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 20, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 118.png": {
+    "frame": { "x": 3886, "y": 0, "w": 20, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 20, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 119.png": {
+    "frame": { "x": 3906, "y": 0, "w": 20, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 20, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 120.png": {
+    "frame": { "x": 3926, "y": 0, "w": 20, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 20, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 121.png": {
+    "frame": { "x": 3946, "y": 0, "w": 20, "h": 58 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 4, "w": 20, "h": 58 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 122.png": {
+    "frame": { "x": 3966, "y": 0, "w": 20, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 10, "w": 20, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 123.png": {
+    "frame": { "x": 3986, "y": 0, "w": 20, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 14, "w": 20, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 124.png": {
+    "frame": { "x": 4006, "y": 0, "w": 20, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 18, "w": 20, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 125.png": {
+    "frame": { "x": 4026, "y": 0, "w": 20, "h": 42 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 20, "w": 20, "h": 42 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 126.png": {
+    "frame": { "x": 4046, "y": 0, "w": 22, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 22, "w": 22, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 127.png": {
+    "frame": { "x": 4068, "y": 0, "w": 20, "h": 38 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 24, "w": 20, "h": 38 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 128.png": {
+    "frame": { "x": 4088, "y": 0, "w": 20, "h": 36 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 26, "w": 20, "h": 36 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 129.png": {
+    "frame": { "x": 4108, "y": 0, "w": 20, "h": 34 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 28, "w": 20, "h": 34 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 130.png": {
+    "frame": { "x": 4128, "y": 0, "w": 22, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 30, "w": 22, "h": 32 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 131.png": {
+    "frame": { "x": 4150, "y": 0, "w": 20, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 56, "y": 30, "w": 20, "h": 32 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 132.png": {
+    "frame": { "x": 4170, "y": 0, "w": 28, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 32, "w": 28, "h": 32 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 133.png": {
+    "frame": { "x": 4198, "y": 0, "w": 40, "h": 30 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 34, "w": 40, "h": 30 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 134.png": {
+    "frame": { "x": 4238, "y": 0, "w": 44, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 60, "y": 24, "w": 44, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 135.png": {
+    "frame": { "x": 4282, "y": 0, "w": 50, "h": 42 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 62, "y": 24, "w": 50, "h": 42 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 136.png": {
+    "frame": { "x": 4332, "y": 0, "w": 52, "h": 30 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 62, "y": 38, "w": 52, "h": 30 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Brazuca 137.png": {
+    "frame": { "x": 4384, "y": 0, "w": 54, "h": 18 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 62, "y": 50, "w": 54, "h": 18 },
     "sourceSize": { "w": 128, "h": 72 },
     "duration": 100
    }
@@ -436,6 +1156,98 @@
       "Brazuca 45.png",
       "Brazuca 46.png",
       "Brazuca 47.png"
+    ],
+    "idle":[
+      "Brazuca 50.png",
+      "Brazuca 51.png",
+      "Brazuca 52.png",
+      "Brazuca 53.png",
+      "Brazuca 54.png",
+      "Brazuca 55.png",
+      "Brazuca 56.png",
+      "Brazuca 57.png",
+      "Brazuca 58.png",
+      "Brazuca 59.png",
+      "Brazuca 60.png",
+      "Brazuca 61.png",
+      "Brazuca 62.png",
+      "Brazuca 63.png",
+      "Brazuca 64.png",
+      "Brazuca 65.png",
+      "Brazuca 66.png",
+      "Brazuca 67.png",
+      "Brazuca 68.png",
+      "Brazuca 69.png",
+      "Brazuca 70.png",
+      "Brazuca 71.png",
+      "Brazuca 72.png",
+      "Brazuca 73.png",
+      "Brazuca 74.png"
+    ],
+    "saltar":[
+      "Brazuca 76.png",
+      "Brazuca 77.png",
+      "Brazuca 78.png",
+      "Brazuca 79.png",
+      "Brazuca 80.png",
+      "Brazuca 81.png",
+      "Brazuca 82.png",
+      "Brazuca 83.png",
+      "Brazuca 84.png",
+      "Brazuca 85.png",
+      "Brazuca 86.png",
+      "Brazuca 87.png",
+      "Brazuca 88.png",
+      "Brazuca 89.png",
+      "Brazuca 90.png",
+      "Brazuca 91.png",
+      "Brazuca 92.png",
+      "Brazuca 93.png",
+      "Brazuca 94.png",
+      "Brazuca 95.png",
+      "Brazuca 96.png",
+      "Brazuca 97.png",
+      "Brazuca 98.png",
+      "Brazuca 99.png",
+      "Brazuca 100.png",
+      "Brazuca 101.png",
+      "Brazuca 102.png",
+      "Brazuca 103.png",
+      "Brazuca 104.png",
+      "Brazuca 105.png",
+      "Brazuca 106.png"
+    ],
+    "muerte":[
+      "Brazuca 108.png",
+      "Brazuca 109.png",
+      "Brazuca 110.png",
+      "Brazuca 111.png",
+      "Brazuca 112.png",
+      "Brazuca 113.png",
+      "Brazuca 114.png",
+      "Brazuca 115.png",
+      "Brazuca 116.png",
+      "Brazuca 117.png",
+      "Brazuca 118.png",
+      "Brazuca 119.png",
+      "Brazuca 120.png",
+      "Brazuca 121.png",
+      "Brazuca 122.png",
+      "Brazuca 123.png",
+      "Brazuca 124.png",
+      "Brazuca 125.png",
+      "Brazuca 126.png",
+      "Brazuca 127.png",
+      "Brazuca 128.png",
+      "Brazuca 129.png",
+      "Brazuca 130.png",
+      "Brazuca 131.png",
+      "Brazuca 132.png",
+      "Brazuca 133.png",
+      "Brazuca 134.png",
+      "Brazuca 135.png",
+      "Brazuca 136.png",
+      "Brazuca 137.png"
     ]
   },
  "meta": {
@@ -443,7 +1255,7 @@
   "version": "1.3.14-beta1-x64",
   "image": "Brazuca.png",
   "format": "RGBA8888",
-  "size": { "w": 6144, "h": 72 },
+  "size": { "w": 4438, "h": 62 },
   "scale": "1",
   "frameTags": [
   ],

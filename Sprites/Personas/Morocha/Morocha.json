@@ -1,0 +1,1268 @@
+{ "frames": {
+   "Morocha 0.png": {
+    "frame": { "x": 0, "y": 0, "w": 30, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 44, "y": 8, "w": 30, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 1.png": {
+    "frame": { "x": 30, "y": 0, "w": 30, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 8, "w": 30, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 2.png": {
+    "frame": { "x": 60, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 3.png": {
+    "frame": { "x": 86, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 4.png": {
+    "frame": { "x": 112, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 5.png": {
+    "frame": { "x": 138, "y": 0, "w": 26, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 10, "w": 26, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 6.png": {
+    "frame": { "x": 164, "y": 0, "w": 26, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 10, "w": 26, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 7.png": {
+    "frame": { "x": 190, "y": 0, "w": 26, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 10, "w": 26, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 8.png": {
+    "frame": { "x": 216, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 9.png": {
+    "frame": { "x": 242, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 10.png": {
+    "frame": { "x": 268, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 11.png": {
+    "frame": { "x": 294, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 12.png": {
+    "frame": { "x": 320, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 13.png": {
+    "frame": { "x": 346, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 14.png": {
+    "frame": { "x": 372, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 15.png": {
+    "frame": { "x": 398, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 16.png": {
+    "frame": { "x": 424, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 17.png": {
+    "frame": { "x": 452, "y": 0, "w": 28, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 10, "w": 28, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 18.png": {
+    "frame": { "x": 480, "y": 0, "w": 28, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 10, "w": 28, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 19.png": {
+    "frame": { "x": 508, "y": 0, "w": 30, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 10, "w": 30, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 20.png": {
+    "frame": { "x": 538, "y": 0, "w": 30, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 8, "w": 30, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 21.png": {
+    "frame": { "x": 568, "y": 0, "w": 32, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 8, "w": 32, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 22.png": {
+    "frame": { "x": 600, "y": 0, "w": 32, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 8, "w": 32, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 23.png": {
+    "frame": { "x": 632, "y": 0, "w": 32, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 8, "w": 32, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 24.png": {
+    "frame": { "x": 664, "y": 0, "w": 32, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 44, "y": 12, "w": 32, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 25.png": {
+    "frame": { "x": 696, "y": 0, "w": 28, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 28, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 26.png": {
+    "frame": { "x": 724, "y": 0, "w": 26, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 12, "w": 26, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 27.png": {
+    "frame": { "x": 750, "y": 0, "w": 22, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 12, "w": 22, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 28.png": {
+    "frame": { "x": 772, "y": 0, "w": 22, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 10, "w": 22, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 29.png": {
+    "frame": { "x": 794, "y": 0, "w": 24, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 10, "w": 24, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 30.png": {
+    "frame": { "x": 818, "y": 0, "w": 26, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 10, "w": 26, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 31.png": {
+    "frame": { "x": 844, "y": 0, "w": 28, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 10, "w": 28, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 32.png": {
+    "frame": { "x": 872, "y": 0, "w": 28, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 28, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 33.png": {
+    "frame": { "x": 900, "y": 0, "w": 28, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 28, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 34.png": {
+    "frame": { "x": 928, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 10, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 35.png": {
+    "frame": { "x": 958, "y": 0, "w": 34, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 34, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 36.png": {
+    "frame": { "x": 992, "y": 0, "w": 34, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 34, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 37.png": {
+    "frame": { "x": 1026, "y": 0, "w": 32, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 32, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 38.png": {
+    "frame": { "x": 1058, "y": 0, "w": 32, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 32, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 39.png": {
+    "frame": { "x": 1090, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 12, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 40.png": {
+    "frame": { "x": 1120, "y": 0, "w": 30, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 10, "w": 30, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 41.png": {
+    "frame": { "x": 1150, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 10, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 42.png": {
+    "frame": { "x": 1176, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 10, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 43.png": {
+    "frame": { "x": 1202, "y": 0, "w": 26, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 26, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 44.png": {
+    "frame": { "x": 1228, "y": 0, "w": 24, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 24, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 45.png": {
+    "frame": { "x": 1252, "y": 0, "w": 24, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 10, "w": 24, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 46.png": {
+    "frame": { "x": 1276, "y": 0, "w": 28, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 10, "w": 28, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 47.png": {
+    "frame": { "x": 1304, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 48.png": {
+    "frame": { "x": 1334, "y": 0, "w": 34, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 42, "y": 12, "w": 34, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 49.png": {
+    "frame": { "x": 1368, "y": 0, "w": 22, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 6, "w": 22, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 50.png": {
+    "frame": { "x": 1390, "y": 0, "w": 24, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 6, "w": 24, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 51.png": {
+    "frame": { "x": 1414, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 52.png": {
+    "frame": { "x": 1442, "y": 0, "w": 30, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 6, "w": 30, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 53.png": {
+    "frame": { "x": 1472, "y": 0, "w": 32, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 32, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 54.png": {
+    "frame": { "x": 1504, "y": 0, "w": 32, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 32, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 55.png": {
+    "frame": { "x": 1536, "y": 0, "w": 32, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 32, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 56.png": {
+    "frame": { "x": 1568, "y": 0, "w": 32, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 32, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 57.png": {
+    "frame": { "x": 1600, "y": 0, "w": 32, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 32, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 58.png": {
+    "frame": { "x": 1632, "y": 0, "w": 32, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 32, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 59.png": {
+    "frame": { "x": 1664, "y": 0, "w": 32, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 32, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 60.png": {
+    "frame": { "x": 1696, "y": 0, "w": 32, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 32, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 61.png": {
+    "frame": { "x": 1728, "y": 0, "w": 32, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 32, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 62.png": {
+    "frame": { "x": 1760, "y": 0, "w": 32, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 32, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 63.png": {
+    "frame": { "x": 1792, "y": 0, "w": 32, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 32, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 64.png": {
+    "frame": { "x": 1824, "y": 0, "w": 32, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 32, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 65.png": {
+    "frame": { "x": 1856, "y": 0, "w": 32, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 32, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 66.png": {
+    "frame": { "x": 1888, "y": 0, "w": 32, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 32, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 67.png": {
+    "frame": { "x": 1920, "y": 0, "w": 32, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 32, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 68.png": {
+    "frame": { "x": 1952, "y": 0, "w": 32, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 32, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 69.png": {
+    "frame": { "x": 1984, "y": 0, "w": 32, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 32, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 70.png": {
+    "frame": { "x": 2016, "y": 0, "w": 32, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 6, "w": 32, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 71.png": {
+    "frame": { "x": 2048, "y": 0, "w": 28, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 6, "w": 28, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 72.png": {
+    "frame": { "x": 2076, "y": 0, "w": 24, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 6, "w": 24, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 73.png": {
+    "frame": { "x": 2100, "y": 0, "w": 24, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 6, "w": 24, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 74.png": {
+    "frame": { "x": 2124, "y": 0, "w": 22, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 6, "w": 22, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 75.png": {
+    "frame": { "x": 2146, "y": 0, "w": 22, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 8, "w": 22, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 76.png": {
+    "frame": { "x": 2168, "y": 0, "w": 26, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 26, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 77.png": {
+    "frame": { "x": 2194, "y": 0, "w": 26, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 26, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 78.png": {
+    "frame": { "x": 2220, "y": 0, "w": 28, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 10, "w": 28, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 79.png": {
+    "frame": { "x": 2248, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 10, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 80.png": {
+    "frame": { "x": 2278, "y": 0, "w": 34, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 8, "w": 34, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 81.png": {
+    "frame": { "x": 2312, "y": 0, "w": 36, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 44, "y": 8, "w": 36, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 82.png": {
+    "frame": { "x": 2348, "y": 0, "w": 40, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 42, "y": 8, "w": 40, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 83.png": {
+    "frame": { "x": 2388, "y": 0, "w": 42, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 40, "y": 8, "w": 42, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 84.png": {
+    "frame": { "x": 2430, "y": 0, "w": 44, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 40, "y": 8, "w": 44, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 85.png": {
+    "frame": { "x": 2474, "y": 0, "w": 46, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 10, "w": 46, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 86.png": {
+    "frame": { "x": 2520, "y": 0, "w": 46, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 10, "w": 46, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 87.png": {
+    "frame": { "x": 2566, "y": 0, "w": 48, "h": 42 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 12, "w": 48, "h": 42 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 88.png": {
+    "frame": { "x": 2614, "y": 0, "w": 48, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 14, "w": 48, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 89.png": {
+    "frame": { "x": 2662, "y": 0, "w": 48, "h": 36 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 16, "w": 48, "h": 36 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 90.png": {
+    "frame": { "x": 2710, "y": 0, "w": 50, "h": 38 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 16, "w": 50, "h": 38 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 91.png": {
+    "frame": { "x": 2760, "y": 0, "w": 50, "h": 36 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 18, "w": 50, "h": 36 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 92.png": {
+    "frame": { "x": 2810, "y": 0, "w": 50, "h": 34 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 20, "w": 50, "h": 34 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 93.png": {
+    "frame": { "x": 2860, "y": 0, "w": 52, "h": 34 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 22, "w": 52, "h": 34 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 94.png": {
+    "frame": { "x": 2912, "y": 0, "w": 54, "h": 30 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 26, "w": 54, "h": 30 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 95.png": {
+    "frame": { "x": 2966, "y": 0, "w": 52, "h": 30 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 28, "w": 52, "h": 30 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 96.png": {
+    "frame": { "x": 3018, "y": 0, "w": 54, "h": 30 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 30, "w": 54, "h": 30 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 97.png": {
+    "frame": { "x": 3072, "y": 0, "w": 54, "h": 28 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 34, "w": 54, "h": 28 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 98.png": {
+    "frame": { "x": 3126, "y": 0, "w": 56, "h": 26 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 38, "w": 56, "h": 26 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 99.png": {
+    "frame": { "x": 3182, "y": 0, "w": 56, "h": 26 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 40, "w": 56, "h": 26 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 100.png": {
+    "frame": { "x": 3238, "y": 0, "w": 56, "h": 24 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 42, "w": 56, "h": 24 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 101.png": {
+    "frame": { "x": 3294, "y": 0, "w": 54, "h": 24 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 42, "w": 54, "h": 24 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 102.png": {
+    "frame": { "x": 3348, "y": 0, "w": 54, "h": 26 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 54, "h": 26 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 103.png": {
+    "frame": { "x": 3402, "y": 0, "w": 54, "h": 26 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 54, "h": 26 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 104.png": {
+    "frame": { "x": 3456, "y": 0, "w": 56, "h": 26 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 56, "h": 26 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 105.png": {
+    "frame": { "x": 3512, "y": 0, "w": 56, "h": 26 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 56, "h": 26 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 106.png": {
+    "frame": { "x": 3568, "y": 0, "w": 56, "h": 28 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 56, "h": 28 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 107.png": {
+    "frame": { "x": 3624, "y": 0, "w": 22, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 6, "w": 22, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 108.png": {
+    "frame": { "x": 3646, "y": 0, "w": 22, "h": 58 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 4, "w": 22, "h": 58 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 109.png": {
+    "frame": { "x": 3668, "y": 0, "w": 22, "h": 60 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 2, "w": 22, "h": 60 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 110.png": {
+    "frame": { "x": 3690, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 111.png": {
+    "frame": { "x": 3712, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 112.png": {
+    "frame": { "x": 3734, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 113.png": {
+    "frame": { "x": 3756, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 114.png": {
+    "frame": { "x": 3778, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 115.png": {
+    "frame": { "x": 3800, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 116.png": {
+    "frame": { "x": 3822, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 117.png": {
+    "frame": { "x": 3844, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 118.png": {
+    "frame": { "x": 3866, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 119.png": {
+    "frame": { "x": 3888, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 120.png": {
+    "frame": { "x": 3910, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 121.png": {
+    "frame": { "x": 3932, "y": 0, "w": 22, "h": 60 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 2, "w": 22, "h": 60 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 122.png": {
+    "frame": { "x": 3954, "y": 0, "w": 22, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 22, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 123.png": {
+    "frame": { "x": 3976, "y": 0, "w": 22, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 12, "w": 22, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 124.png": {
+    "frame": { "x": 3998, "y": 0, "w": 22, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 16, "w": 22, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 125.png": {
+    "frame": { "x": 4020, "y": 0, "w": 22, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 18, "w": 22, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 126.png": {
+    "frame": { "x": 4042, "y": 0, "w": 22, "h": 42 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 20, "w": 22, "h": 42 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 127.png": {
+    "frame": { "x": 4064, "y": 0, "w": 20, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 22, "w": 20, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 128.png": {
+    "frame": { "x": 4084, "y": 0, "w": 22, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 22, "w": 22, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 129.png": {
+    "frame": { "x": 4106, "y": 0, "w": 20, "h": 38 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 24, "w": 20, "h": 38 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 130.png": {
+    "frame": { "x": 4126, "y": 0, "w": 22, "h": 36 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 26, "w": 22, "h": 36 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 131.png": {
+    "frame": { "x": 4148, "y": 0, "w": 22, "h": 34 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 56, "y": 28, "w": 22, "h": 34 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 132.png": {
+    "frame": { "x": 4170, "y": 0, "w": 26, "h": 34 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 56, "y": 28, "w": 26, "h": 34 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 133.png": {
+    "frame": { "x": 4196, "y": 0, "w": 34, "h": 34 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 58, "y": 30, "w": 34, "h": 34 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 134.png": {
+    "frame": { "x": 4230, "y": 0, "w": 42, "h": 38 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 60, "y": 26, "w": 42, "h": 38 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 135.png": {
+    "frame": { "x": 4272, "y": 0, "w": 46, "h": 38 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 62, "y": 26, "w": 46, "h": 38 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 136.png": {
+    "frame": { "x": 4318, "y": 0, "w": 48, "h": 28 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 62, "y": 38, "w": 48, "h": 28 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Morocha 137.png": {
+    "frame": { "x": 4366, "y": 0, "w": 48, "h": 20 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 62, "y": 46, "w": 48, "h": 20 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   }
+ },
+    "animations": {
+    "caminar": [
+      "Morocha 0.png",
+      "Morocha 1.png",
+      "Morocha 2.png",
+      "Morocha 3.png",
+      "Morocha 4.png",
+      "Morocha 5.png",
+      "Morocha 6.png",
+      "Morocha 7.png",
+      "Morocha 8.png",
+      "Morocha 9.png",
+      "Morocha 10.png",
+      "Morocha 11.png",
+      "Morocha 12.png",
+      "Morocha 13.png",
+      "Morocha 14.png",
+      "Morocha 15.png",
+      "Morocha 16.png",
+      "Morocha 17.png",
+      "Morocha 18.png",
+      "Morocha 19.png",
+      "Morocha 20.png",
+      "Morocha 21.png",
+      "Morocha 22.png",
+      "Morocha 23.png"
+    ],
+    "correr": [
+      "Morocha 24.png",
+      "Morocha 25.png",
+      "Morocha 26.png",
+      "Morocha 27.png",
+      "Morocha 28.png",
+      "Morocha 29.png",
+      "Morocha 30.png",
+      "Morocha 31.png",
+      "Morocha 32.png",
+      "Morocha 33.png",
+      "Morocha 34.png",
+      "Morocha 35.png",
+      "Morocha 36.png",
+      "Morocha 37.png",
+      "Morocha 38.png",
+      "Morocha 39.png",
+      "Morocha 40.png",
+      "Morocha 41.png",
+      "Morocha 42.png",
+      "Morocha 43.png",
+      "Morocha 44.png",
+      "Morocha 45.png",
+      "Morocha 46.png",
+      "Morocha 47.png"
+    ],
+    "idle":[
+      "Morocha 50.png",
+      "Morocha 51.png",
+      "Morocha 52.png",
+      "Morocha 53.png",
+      "Morocha 54.png",
+      "Morocha 55.png",
+      "Morocha 56.png",
+      "Morocha 57.png",
+      "Morocha 58.png",
+      "Morocha 59.png",
+      "Morocha 60.png",
+      "Morocha 61.png",
+      "Morocha 62.png",
+      "Morocha 63.png",
+      "Morocha 64.png",
+      "Morocha 65.png",
+      "Morocha 66.png",
+      "Morocha 67.png",
+      "Morocha 68.png",
+      "Morocha 69.png",
+      "Morocha 70.png",
+      "Morocha 71.png",
+      "Morocha 72.png",
+      "Morocha 73.png",
+      "Morocha 74.png"
+    ],
+    "saltar":[
+      "Morocha 76.png",
+      "Morocha 77.png",
+      "Morocha 78.png",
+      "Morocha 79.png",
+      "Morocha 80.png",
+      "Morocha 81.png",
+      "Morocha 82.png",
+      "Morocha 83.png",
+      "Morocha 84.png",
+      "Morocha 85.png",
+      "Morocha 86.png",
+      "Morocha 87.png",
+      "Morocha 88.png",
+      "Morocha 89.png",
+      "Morocha 90.png",
+      "Morocha 91.png",
+      "Morocha 92.png",
+      "Morocha 93.png",
+      "Morocha 94.png",
+      "Morocha 95.png",
+      "Morocha 96.png",
+      "Morocha 97.png",
+      "Morocha 98.png",
+      "Morocha 99.png",
+      "Morocha 100.png",
+      "Morocha 101.png",
+      "Morocha 102.png",
+      "Morocha 103.png",
+      "Morocha 104.png",
+      "Morocha 105.png",
+      "Morocha 106.png"
+    ],
+    "muerte":[
+      "Morocha 108.png",
+      "Morocha 109.png",
+      "Morocha 110.png",
+      "Morocha 111.png",
+      "Morocha 112.png",
+      "Morocha 113.png",
+      "Morocha 114.png",
+      "Morocha 115.png",
+      "Morocha 116.png",
+      "Morocha 117.png",
+      "Morocha 118.png",
+      "Morocha 119.png",
+      "Morocha 120.png",
+      "Morocha 121.png",
+      "Morocha 122.png",
+      "Morocha 123.png",
+      "Morocha 124.png",
+      "Morocha 125.png",
+      "Morocha 126.png",
+      "Morocha 127.png",
+      "Morocha 128.png",
+      "Morocha 129.png",
+      "Morocha 130.png",
+      "Morocha 131.png",
+      "Morocha 132.png",
+      "Morocha 133.png",
+      "Morocha 134.png",
+      "Morocha 135.png",
+      "Morocha 136.png",
+      "Morocha 137.png"
+    ]
+  },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.14-beta1-x64",
+  "image": "Morocha.png",
+  "format": "RGBA8888",
+  "size": { "w": 4414, "h": 62 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

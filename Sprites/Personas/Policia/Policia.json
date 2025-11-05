@@ -1,0 +1,1268 @@
+{ "frames": {
+   "Policia 0.png": {
+    "frame": { "x": 0, "y": 0, "w": 36, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 44, "y": 12, "w": 36, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 1.png": {
+    "frame": { "x": 36, "y": 0, "w": 34, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 34, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 2.png": {
+    "frame": { "x": 70, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 12, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 3.png": {
+    "frame": { "x": 100, "y": 0, "w": 28, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 4.png": {
+    "frame": { "x": 128, "y": 0, "w": 28, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 28, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 5.png": {
+    "frame": { "x": 156, "y": 0, "w": 26, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 26, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 6.png": {
+    "frame": { "x": 182, "y": 0, "w": 28, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 28, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 7.png": {
+    "frame": { "x": 210, "y": 0, "w": 28, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 28, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 8.png": {
+    "frame": { "x": 238, "y": 0, "w": 28, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 28, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 9.png": {
+    "frame": { "x": 266, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 10.png": {
+    "frame": { "x": 294, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 11.png": {
+    "frame": { "x": 322, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 12.png": {
+    "frame": { "x": 350, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 13.png": {
+    "frame": { "x": 378, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 14.png": {
+    "frame": { "x": 406, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 15.png": {
+    "frame": { "x": 434, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 16.png": {
+    "frame": { "x": 462, "y": 0, "w": 30, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 14, "w": 30, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 17.png": {
+    "frame": { "x": 492, "y": 0, "w": 30, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 14, "w": 30, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 18.png": {
+    "frame": { "x": 522, "y": 0, "w": 32, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 14, "w": 32, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 19.png": {
+    "frame": { "x": 554, "y": 0, "w": 32, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 14, "w": 32, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 20.png": {
+    "frame": { "x": 586, "y": 0, "w": 32, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 32, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 21.png": {
+    "frame": { "x": 618, "y": 0, "w": 34, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 34, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 22.png": {
+    "frame": { "x": 652, "y": 0, "w": 34, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 34, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 23.png": {
+    "frame": { "x": 686, "y": 0, "w": 34, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 34, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 24.png": {
+    "frame": { "x": 720, "y": 0, "w": 30, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 44, "y": 16, "w": 30, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 25.png": {
+    "frame": { "x": 750, "y": 0, "w": 26, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 16, "w": 26, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 26.png": {
+    "frame": { "x": 776, "y": 0, "w": 26, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 16, "w": 26, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 27.png": {
+    "frame": { "x": 802, "y": 0, "w": 22, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 16, "w": 22, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 28.png": {
+    "frame": { "x": 824, "y": 0, "w": 20, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 56, "y": 16, "w": 20, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 29.png": {
+    "frame": { "x": 844, "y": 0, "w": 22, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 56, "y": 14, "w": 22, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 30.png": {
+    "frame": { "x": 866, "y": 0, "w": 24, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 14, "w": 24, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 31.png": {
+    "frame": { "x": 890, "y": 0, "w": 26, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 14, "w": 26, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 32.png": {
+    "frame": { "x": 916, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 33.png": {
+    "frame": { "x": 944, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 34.png": {
+    "frame": { "x": 974, "y": 0, "w": 32, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 14, "w": 32, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 35.png": {
+    "frame": { "x": 1006, "y": 0, "w": 34, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 16, "w": 34, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 36.png": {
+    "frame": { "x": 1040, "y": 0, "w": 34, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 16, "w": 34, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 37.png": {
+    "frame": { "x": 1074, "y": 0, "w": 34, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 16, "w": 34, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 38.png": {
+    "frame": { "x": 1108, "y": 0, "w": 34, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 16, "w": 34, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 39.png": {
+    "frame": { "x": 1142, "y": 0, "w": 30, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 16, "w": 30, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 40.png": {
+    "frame": { "x": 1172, "y": 0, "w": 28, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 16, "w": 28, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 41.png": {
+    "frame": { "x": 1200, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 42.png": {
+    "frame": { "x": 1228, "y": 0, "w": 24, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 14, "w": 24, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 43.png": {
+    "frame": { "x": 1252, "y": 0, "w": 24, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 14, "w": 24, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 44.png": {
+    "frame": { "x": 1276, "y": 0, "w": 24, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 24, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 45.png": {
+    "frame": { "x": 1300, "y": 0, "w": 26, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 14, "w": 26, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 46.png": {
+    "frame": { "x": 1326, "y": 0, "w": 26, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 14, "w": 26, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 47.png": {
+    "frame": { "x": 1352, "y": 0, "w": 28, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 16, "w": 28, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 48.png": {
+    "frame": { "x": 1380, "y": 0, "w": 32, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 42, "y": 16, "w": 32, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 49.png": {
+    "frame": { "x": 1412, "y": 0, "w": 22, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 12, "w": 22, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 50.png": {
+    "frame": { "x": 1434, "y": 0, "w": 22, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 12, "w": 22, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 51.png": {
+    "frame": { "x": 1456, "y": 0, "w": 26, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 26, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 52.png": {
+    "frame": { "x": 1482, "y": 0, "w": 26, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 26, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 53.png": {
+    "frame": { "x": 1508, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 54.png": {
+    "frame": { "x": 1536, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 55.png": {
+    "frame": { "x": 1566, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 56.png": {
+    "frame": { "x": 1596, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 57.png": {
+    "frame": { "x": 1626, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 58.png": {
+    "frame": { "x": 1656, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 59.png": {
+    "frame": { "x": 1686, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 60.png": {
+    "frame": { "x": 1716, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 61.png": {
+    "frame": { "x": 1746, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 62.png": {
+    "frame": { "x": 1776, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 63.png": {
+    "frame": { "x": 1806, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 64.png": {
+    "frame": { "x": 1836, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 65.png": {
+    "frame": { "x": 1866, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 66.png": {
+    "frame": { "x": 1896, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 67.png": {
+    "frame": { "x": 1926, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 68.png": {
+    "frame": { "x": 1956, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 69.png": {
+    "frame": { "x": 1986, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 70.png": {
+    "frame": { "x": 2014, "y": 0, "w": 26, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 26, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 71.png": {
+    "frame": { "x": 2040, "y": 0, "w": 24, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 24, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 72.png": {
+    "frame": { "x": 2064, "y": 0, "w": 24, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 24, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 73.png": {
+    "frame": { "x": 2088, "y": 0, "w": 22, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 12, "w": 22, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 74.png": {
+    "frame": { "x": 2110, "y": 0, "w": 22, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 12, "w": 22, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 75.png": {
+    "frame": { "x": 2132, "y": 0, "w": 26, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 26, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 76.png": {
+    "frame": { "x": 2158, "y": 0, "w": 24, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 56, "y": 16, "w": 24, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 77.png": {
+    "frame": { "x": 2182, "y": 0, "w": 28, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 16, "w": 28, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 78.png": {
+    "frame": { "x": 2210, "y": 0, "w": 30, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 14, "w": 30, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 79.png": {
+    "frame": { "x": 2240, "y": 0, "w": 34, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 14, "w": 34, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 80.png": {
+    "frame": { "x": 2274, "y": 0, "w": 38, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 38, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 81.png": {
+    "frame": { "x": 2312, "y": 0, "w": 42, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 44, "y": 12, "w": 42, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 82.png": {
+    "frame": { "x": 2354, "y": 0, "w": 44, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 42, "y": 12, "w": 44, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 83.png": {
+    "frame": { "x": 2398, "y": 0, "w": 48, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 40, "y": 12, "w": 48, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 84.png": {
+    "frame": { "x": 2446, "y": 0, "w": 50, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 12, "w": 50, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 85.png": {
+    "frame": { "x": 2496, "y": 0, "w": 52, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 12, "w": 52, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 86.png": {
+    "frame": { "x": 2548, "y": 0, "w": 52, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 14, "w": 52, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 87.png": {
+    "frame": { "x": 2600, "y": 0, "w": 52, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 14, "w": 52, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 88.png": {
+    "frame": { "x": 2652, "y": 0, "w": 52, "h": 38 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 16, "w": 52, "h": 38 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 89.png": {
+    "frame": { "x": 2704, "y": 0, "w": 52, "h": 36 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 18, "w": 52, "h": 36 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 90.png": {
+    "frame": { "x": 2756, "y": 0, "w": 54, "h": 36 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 18, "w": 54, "h": 36 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 91.png": {
+    "frame": { "x": 2810, "y": 0, "w": 54, "h": 36 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 20, "w": 54, "h": 36 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 92.png": {
+    "frame": { "x": 2864, "y": 0, "w": 54, "h": 34 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 22, "w": 54, "h": 34 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 93.png": {
+    "frame": { "x": 2918, "y": 0, "w": 56, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 24, "w": 56, "h": 32 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 94.png": {
+    "frame": { "x": 2974, "y": 0, "w": 54, "h": 30 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 26, "w": 54, "h": 30 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 95.png": {
+    "frame": { "x": 3028, "y": 0, "w": 54, "h": 30 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 28, "w": 54, "h": 30 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 96.png": {
+    "frame": { "x": 3082, "y": 0, "w": 54, "h": 26 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 32, "w": 54, "h": 26 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 97.png": {
+    "frame": { "x": 3136, "y": 0, "w": 56, "h": 26 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 34, "w": 56, "h": 26 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 98.png": {
+    "frame": { "x": 3192, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 38, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 99.png": {
+    "frame": { "x": 3246, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 40, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 100.png": {
+    "frame": { "x": 3300, "y": 0, "w": 54, "h": 20 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 42, "w": 54, "h": 20 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 101.png": {
+    "frame": { "x": 3354, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 102.png": {
+    "frame": { "x": 3408, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 103.png": {
+    "frame": { "x": 3462, "y": 0, "w": 54, "h": 24 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 38, "w": 54, "h": 24 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 104.png": {
+    "frame": { "x": 3516, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 105.png": {
+    "frame": { "x": 3570, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 106.png": {
+    "frame": { "x": 3624, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 107.png": {
+    "frame": { "x": 3678, "y": 0, "w": 22, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 12, "w": 22, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 108.png": {
+    "frame": { "x": 3700, "y": 0, "w": 22, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 10, "w": 22, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 109.png": {
+    "frame": { "x": 3722, "y": 0, "w": 22, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 22, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 110.png": {
+    "frame": { "x": 3744, "y": 0, "w": 22, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 22, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 111.png": {
+    "frame": { "x": 3766, "y": 0, "w": 22, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 6, "w": 22, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 112.png": {
+    "frame": { "x": 3788, "y": 0, "w": 22, "h": 58 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 4, "w": 22, "h": 58 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 113.png": {
+    "frame": { "x": 3810, "y": 0, "w": 22, "h": 58 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 4, "w": 22, "h": 58 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 114.png": {
+    "frame": { "x": 3832, "y": 0, "w": 22, "h": 60 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 2, "w": 22, "h": 60 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 115.png": {
+    "frame": { "x": 3854, "y": 0, "w": 22, "h": 60 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 2, "w": 22, "h": 60 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 116.png": {
+    "frame": { "x": 3876, "y": 0, "w": 22, "h": 60 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 2, "w": 22, "h": 60 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 117.png": {
+    "frame": { "x": 3898, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 118.png": {
+    "frame": { "x": 3920, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 119.png": {
+    "frame": { "x": 3942, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 120.png": {
+    "frame": { "x": 3964, "y": 0, "w": 22, "h": 58 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 4, "w": 22, "h": 58 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 121.png": {
+    "frame": { "x": 3986, "y": 0, "w": 22, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 22, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 122.png": {
+    "frame": { "x": 4008, "y": 0, "w": 22, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 12, "w": 22, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 123.png": {
+    "frame": { "x": 4030, "y": 0, "w": 22, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 18, "w": 22, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 124.png": {
+    "frame": { "x": 4052, "y": 0, "w": 22, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 22, "w": 22, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 125.png": {
+    "frame": { "x": 4074, "y": 0, "w": 22, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 22, "w": 22, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 126.png": {
+    "frame": { "x": 4096, "y": 0, "w": 20, "h": 36 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 26, "w": 20, "h": 36 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 127.png": {
+    "frame": { "x": 4116, "y": 0, "w": 20, "h": 38 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 26, "w": 20, "h": 38 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 128.png": {
+    "frame": { "x": 4136, "y": 0, "w": 22, "h": 36 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 28, "w": 22, "h": 36 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 129.png": {
+    "frame": { "x": 4158, "y": 0, "w": 20, "h": 34 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 30, "w": 20, "h": 34 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 130.png": {
+    "frame": { "x": 4178, "y": 0, "w": 20, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 56, "y": 32, "w": 20, "h": 32 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 131.png": {
+    "frame": { "x": 4198, "y": 0, "w": 22, "h": 30 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 56, "y": 34, "w": 22, "h": 30 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 132.png": {
+    "frame": { "x": 4220, "y": 0, "w": 28, "h": 30 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 56, "y": 34, "w": 28, "h": 30 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 133.png": {
+    "frame": { "x": 4248, "y": 0, "w": 40, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 34, "w": 40, "h": 32 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 134.png": {
+    "frame": { "x": 4288, "y": 0, "w": 46, "h": 42 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 60, "y": 24, "w": 46, "h": 42 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 135.png": {
+    "frame": { "x": 4334, "y": 0, "w": 50, "h": 42 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 62, "y": 24, "w": 50, "h": 42 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 136.png": {
+    "frame": { "x": 4384, "y": 0, "w": 52, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 62, "y": 36, "w": 52, "h": 32 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Policia 137.png": {
+    "frame": { "x": 4436, "y": 0, "w": 54, "h": 20 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 62, "y": 48, "w": 54, "h": 20 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   }
+ },
+  "animations": {
+    "caminar": [
+      "Policia 0.png",
+      "Policia 1.png",
+      "Policia 2.png",
+      "Policia 3.png",
+      "Policia 4.png",
+      "Policia 5.png",
+      "Policia 6.png",
+      "Policia 7.png",
+      "Policia 8.png",
+      "Policia 9.png",
+      "Policia 10.png",
+      "Policia 11.png",
+      "Policia 12.png",
+      "Policia 13.png",
+      "Policia 14.png",
+      "Policia 15.png",
+      "Policia 16.png",
+      "Policia 17.png",
+      "Policia 18.png",
+      "Policia 19.png",
+      "Policia 20.png",
+      "Policia 21.png",
+      "Policia 22.png",
+      "Policia 23.png"
+    ],
+    "correr": [
+      "Policia 24.png",
+      "Policia 25.png",
+      "Policia 26.png",
+      "Policia 27.png",
+      "Policia 28.png",
+      "Policia 29.png",
+      "Policia 30.png",
+      "Policia 31.png",
+      "Policia 32.png",
+      "Policia 33.png",
+      "Policia 34.png",
+      "Policia 35.png",
+      "Policia 36.png",
+      "Policia 37.png",
+      "Policia 38.png",
+      "Policia 39.png",
+      "Policia 40.png",
+      "Policia 41.png",
+      "Policia 42.png",
+      "Policia 43.png",
+      "Policia 44.png",
+      "Policia 45.png",
+      "Policia 46.png",
+      "Policia 47.png"
+    ],
+    "idle":[
+      "Policia 50.png",
+      "Policia 51.png",
+      "Policia 52.png",
+      "Policia 53.png",
+      "Policia 54.png",
+      "Policia 55.png",
+      "Policia 56.png",
+      "Policia 57.png",
+      "Policia 58.png",
+      "Policia 59.png",
+      "Policia 60.png",
+      "Policia 61.png",
+      "Policia 62.png",
+      "Policia 63.png",
+      "Policia 64.png",
+      "Policia 65.png",
+      "Policia 66.png",
+      "Policia 67.png",
+      "Policia 68.png",
+      "Policia 69.png",
+      "Policia 70.png",
+      "Policia 71.png",
+      "Policia 72.png",
+      "Policia 73.png",
+      "Policia 74.png"
+    ],
+    "saltar":[
+      "Policia 76.png",
+      "Policia 77.png",
+      "Policia 78.png",
+      "Policia 79.png",
+      "Policia 80.png",
+      "Policia 81.png",
+      "Policia 82.png",
+      "Policia 83.png",
+      "Policia 84.png",
+      "Policia 85.png",
+      "Policia 86.png",
+      "Policia 87.png",
+      "Policia 88.png",
+      "Policia 89.png",
+      "Policia 90.png",
+      "Policia 91.png",
+      "Policia 92.png",
+      "Policia 93.png",
+      "Policia 94.png",
+      "Policia 95.png",
+      "Policia 96.png",
+      "Policia 97.png",
+      "Policia 98.png",
+      "Policia 99.png",
+      "Policia 100.png",
+      "Policia 101.png",
+      "Policia 102.png",
+      "Policia 103.png",
+      "Policia 104.png",
+      "Policia 105.png",
+      "Policia 106.png"
+    ],
+    "muerte":[
+      "Policia 108.png",
+      "Policia 109.png",
+      "Policia 110.png",
+      "Policia 111.png",
+      "Policia 112.png",
+      "Policia 113.png",
+      "Policia 114.png",
+      "Policia 115.png",
+      "Policia 116.png",
+      "Policia 117.png",
+      "Policia 118.png",
+      "Policia 119.png",
+      "Policia 120.png",
+      "Policia 121.png",
+      "Policia 122.png",
+      "Policia 123.png",
+      "Policia 124.png",
+      "Policia 125.png",
+      "Policia 126.png",
+      "Policia 127.png",
+      "Policia 128.png",
+      "Policia 129.png",
+      "Policia 130.png",
+      "Policia 131.png",
+      "Policia 132.png",
+      "Policia 133.png",
+      "Policia 134.png",
+      "Policia 135.png",
+      "Policia 136.png",
+      "Policia 137.png"
+    ]
+  },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.14-beta1-x64",
+  "image": "Policia.png",
+  "format": "RGBA8888",
+  "size": { "w": 4490, "h": 62 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

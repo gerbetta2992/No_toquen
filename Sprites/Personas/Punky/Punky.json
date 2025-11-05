@@ -1,0 +1,1268 @@
+{ "frames": {
+   "Punky 0.png": {
+    "frame": { "x": 0, "y": 0, "w": 36, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 44, "y": 12, "w": 36, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 1.png": {
+    "frame": { "x": 36, "y": 0, "w": 34, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 34, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 2.png": {
+    "frame": { "x": 70, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 3.png": {
+    "frame": { "x": 100, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 4.png": {
+    "frame": { "x": 128, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 5.png": {
+    "frame": { "x": 156, "y": 0, "w": 26, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 26, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 6.png": {
+    "frame": { "x": 182, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 7.png": {
+    "frame": { "x": 210, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 8.png": {
+    "frame": { "x": 238, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 9.png": {
+    "frame": { "x": 266, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 10.png": {
+    "frame": { "x": 294, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 11.png": {
+    "frame": { "x": 322, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 12.png": {
+    "frame": { "x": 350, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 13.png": {
+    "frame": { "x": 378, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 14.png": {
+    "frame": { "x": 406, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 15.png": {
+    "frame": { "x": 434, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 16.png": {
+    "frame": { "x": 462, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 12, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 17.png": {
+    "frame": { "x": 492, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 18.png": {
+    "frame": { "x": 522, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 12, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 19.png": {
+    "frame": { "x": 552, "y": 0, "w": 32, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 32, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 20.png": {
+    "frame": { "x": 584, "y": 0, "w": 32, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 32, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 21.png": {
+    "frame": { "x": 616, "y": 0, "w": 34, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 34, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 22.png": {
+    "frame": { "x": 650, "y": 0, "w": 34, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 34, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 23.png": {
+    "frame": { "x": 684, "y": 0, "w": 34, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 34, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 24.png": {
+    "frame": { "x": 718, "y": 0, "w": 32, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 44, "y": 16, "w": 32, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 25.png": {
+    "frame": { "x": 750, "y": 0, "w": 28, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 16, "w": 28, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 26.png": {
+    "frame": { "x": 778, "y": 0, "w": 26, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 16, "w": 26, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 27.png": {
+    "frame": { "x": 804, "y": 0, "w": 22, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 16, "w": 22, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 28.png": {
+    "frame": { "x": 826, "y": 0, "w": 22, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 14, "w": 22, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 29.png": {
+    "frame": { "x": 848, "y": 0, "w": 24, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 14, "w": 24, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 30.png": {
+    "frame": { "x": 872, "y": 0, "w": 24, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 14, "w": 24, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 31.png": {
+    "frame": { "x": 896, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 32.png": {
+    "frame": { "x": 924, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 33.png": {
+    "frame": { "x": 952, "y": 0, "w": 32, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 12, "w": 32, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 34.png": {
+    "frame": { "x": 984, "y": 0, "w": 32, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 14, "w": 32, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 35.png": {
+    "frame": { "x": 1016, "y": 0, "w": 34, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 16, "w": 34, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 36.png": {
+    "frame": { "x": 1050, "y": 0, "w": 34, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 16, "w": 34, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 37.png": {
+    "frame": { "x": 1084, "y": 0, "w": 34, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 16, "w": 34, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 38.png": {
+    "frame": { "x": 1118, "y": 0, "w": 34, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 16, "w": 34, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 39.png": {
+    "frame": { "x": 1152, "y": 0, "w": 30, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 16, "w": 30, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 40.png": {
+    "frame": { "x": 1182, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 14, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 41.png": {
+    "frame": { "x": 1212, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 42.png": {
+    "frame": { "x": 1240, "y": 0, "w": 24, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 12, "w": 24, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 43.png": {
+    "frame": { "x": 1264, "y": 0, "w": 24, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 12, "w": 24, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 44.png": {
+    "frame": { "x": 1288, "y": 0, "w": 22, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 12, "w": 22, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 45.png": {
+    "frame": { "x": 1310, "y": 0, "w": 24, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 24, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 46.png": {
+    "frame": { "x": 1334, "y": 0, "w": 28, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 14, "w": 28, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 47.png": {
+    "frame": { "x": 1362, "y": 0, "w": 30, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 16, "w": 30, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 48.png": {
+    "frame": { "x": 1392, "y": 0, "w": 34, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 42, "y": 16, "w": 34, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 49.png": {
+    "frame": { "x": 1426, "y": 0, "w": 22, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 10, "w": 22, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 50.png": {
+    "frame": { "x": 1448, "y": 0, "w": 24, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 10, "w": 24, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 51.png": {
+    "frame": { "x": 1472, "y": 0, "w": 26, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 10, "w": 26, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 52.png": {
+    "frame": { "x": 1498, "y": 0, "w": 28, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 10, "w": 28, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 53.png": {
+    "frame": { "x": 1526, "y": 0, "w": 28, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 10, "w": 28, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 54.png": {
+    "frame": { "x": 1554, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 10, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 55.png": {
+    "frame": { "x": 1584, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 10, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 56.png": {
+    "frame": { "x": 1614, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 10, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 57.png": {
+    "frame": { "x": 1644, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 10, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 58.png": {
+    "frame": { "x": 1674, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 10, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 59.png": {
+    "frame": { "x": 1704, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 10, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 60.png": {
+    "frame": { "x": 1734, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 10, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 61.png": {
+    "frame": { "x": 1764, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 10, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 62.png": {
+    "frame": { "x": 1794, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 10, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 63.png": {
+    "frame": { "x": 1824, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 10, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 64.png": {
+    "frame": { "x": 1854, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 10, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 65.png": {
+    "frame": { "x": 1884, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 10, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 66.png": {
+    "frame": { "x": 1914, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 10, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 67.png": {
+    "frame": { "x": 1944, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 10, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 68.png": {
+    "frame": { "x": 1974, "y": 0, "w": 30, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 10, "w": 30, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 69.png": {
+    "frame": { "x": 2004, "y": 0, "w": 28, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 10, "w": 28, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 70.png": {
+    "frame": { "x": 2032, "y": 0, "w": 28, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 10, "w": 28, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 71.png": {
+    "frame": { "x": 2060, "y": 0, "w": 24, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 10, "w": 24, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 72.png": {
+    "frame": { "x": 2084, "y": 0, "w": 24, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 10, "w": 24, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 73.png": {
+    "frame": { "x": 2108, "y": 0, "w": 22, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 10, "w": 22, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 74.png": {
+    "frame": { "x": 2130, "y": 0, "w": 22, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 10, "w": 22, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 75.png": {
+    "frame": { "x": 2152, "y": 0, "w": 26, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 26, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 76.png": {
+    "frame": { "x": 2178, "y": 0, "w": 26, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 14, "w": 26, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 77.png": {
+    "frame": { "x": 2204, "y": 0, "w": 28, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 28, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 78.png": {
+    "frame": { "x": 2232, "y": 0, "w": 30, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 14, "w": 30, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 79.png": {
+    "frame": { "x": 2262, "y": 0, "w": 34, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 34, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 80.png": {
+    "frame": { "x": 2296, "y": 0, "w": 38, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 38, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 81.png": {
+    "frame": { "x": 2334, "y": 0, "w": 42, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 44, "y": 12, "w": 42, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 82.png": {
+    "frame": { "x": 2376, "y": 0, "w": 44, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 42, "y": 10, "w": 44, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 83.png": {
+    "frame": { "x": 2420, "y": 0, "w": 48, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 40, "y": 10, "w": 48, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 84.png": {
+    "frame": { "x": 2468, "y": 0, "w": 48, "h": 42 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 40, "y": 12, "w": 48, "h": 42 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 85.png": {
+    "frame": { "x": 2516, "y": 0, "w": 52, "h": 42 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 12, "w": 52, "h": 42 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 86.png": {
+    "frame": { "x": 2568, "y": 0, "w": 52, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 14, "w": 52, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 87.png": {
+    "frame": { "x": 2620, "y": 0, "w": 52, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 14, "w": 52, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 88.png": {
+    "frame": { "x": 2672, "y": 0, "w": 52, "h": 38 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 16, "w": 52, "h": 38 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 89.png": {
+    "frame": { "x": 2724, "y": 0, "w": 52, "h": 36 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 16, "w": 52, "h": 36 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 90.png": {
+    "frame": { "x": 2776, "y": 0, "w": 54, "h": 36 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 18, "w": 54, "h": 36 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 91.png": {
+    "frame": { "x": 2830, "y": 0, "w": 54, "h": 34 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 20, "w": 54, "h": 34 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 92.png": {
+    "frame": { "x": 2884, "y": 0, "w": 54, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 22, "w": 54, "h": 32 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 93.png": {
+    "frame": { "x": 2938, "y": 0, "w": 56, "h": 30 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 24, "w": 56, "h": 30 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 94.png": {
+    "frame": { "x": 2994, "y": 0, "w": 54, "h": 28 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 26, "w": 54, "h": 28 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 95.png": {
+    "frame": { "x": 3048, "y": 0, "w": 54, "h": 28 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 28, "w": 54, "h": 28 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 96.png": {
+    "frame": { "x": 3102, "y": 0, "w": 54, "h": 24 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 32, "w": 54, "h": 24 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 97.png": {
+    "frame": { "x": 3156, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 36, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 98.png": {
+    "frame": { "x": 3210, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 38, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 99.png": {
+    "frame": { "x": 3264, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 40, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 100.png": {
+    "frame": { "x": 3318, "y": 0, "w": 54, "h": 20 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 42, "w": 54, "h": 20 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 101.png": {
+    "frame": { "x": 3372, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 102.png": {
+    "frame": { "x": 3426, "y": 0, "w": 54, "h": 20 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 54, "h": 20 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 103.png": {
+    "frame": { "x": 3480, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 38, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 104.png": {
+    "frame": { "x": 3534, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 105.png": {
+    "frame": { "x": 3588, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 106.png": {
+    "frame": { "x": 3642, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 107.png": {
+    "frame": { "x": 3696, "y": 0, "w": 22, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 22, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 108.png": {
+    "frame": { "x": 3718, "y": 0, "w": 22, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 6, "w": 22, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 109.png": {
+    "frame": { "x": 3740, "y": 0, "w": 22, "h": 58 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 4, "w": 22, "h": 58 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 110.png": {
+    "frame": { "x": 3762, "y": 0, "w": 22, "h": 58 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 4, "w": 22, "h": 58 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 111.png": {
+    "frame": { "x": 3784, "y": 0, "w": 22, "h": 60 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 2, "w": 22, "h": 60 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 112.png": {
+    "frame": { "x": 3806, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 113.png": {
+    "frame": { "x": 3828, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 114.png": {
+    "frame": { "x": 3850, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 115.png": {
+    "frame": { "x": 3872, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 116.png": {
+    "frame": { "x": 3894, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 117.png": {
+    "frame": { "x": 3916, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 118.png": {
+    "frame": { "x": 3938, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 119.png": {
+    "frame": { "x": 3960, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 120.png": {
+    "frame": { "x": 3982, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 121.png": {
+    "frame": { "x": 4004, "y": 0, "w": 22, "h": 58 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 4, "w": 22, "h": 58 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 122.png": {
+    "frame": { "x": 4026, "y": 0, "w": 22, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 10, "w": 22, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 123.png": {
+    "frame": { "x": 4048, "y": 0, "w": 22, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 14, "w": 22, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 124.png": {
+    "frame": { "x": 4070, "y": 0, "w": 22, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 18, "w": 22, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 125.png": {
+    "frame": { "x": 4092, "y": 0, "w": 22, "h": 42 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 20, "w": 22, "h": 42 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 126.png": {
+    "frame": { "x": 4114, "y": 0, "w": 22, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 22, "w": 22, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 127.png": {
+    "frame": { "x": 4136, "y": 0, "w": 20, "h": 38 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 24, "w": 20, "h": 38 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 128.png": {
+    "frame": { "x": 4156, "y": 0, "w": 22, "h": 36 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 26, "w": 22, "h": 36 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 129.png": {
+    "frame": { "x": 4178, "y": 0, "w": 20, "h": 34 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 28, "w": 20, "h": 34 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 130.png": {
+    "frame": { "x": 4198, "y": 0, "w": 22, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 30, "w": 22, "h": 32 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 131.png": {
+    "frame": { "x": 4220, "y": 0, "w": 22, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 56, "y": 30, "w": 22, "h": 32 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 132.png": {
+    "frame": { "x": 4242, "y": 0, "w": 30, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 30, "w": 30, "h": 32 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 133.png": {
+    "frame": { "x": 4272, "y": 0, "w": 40, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 32, "w": 40, "h": 32 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 134.png": {
+    "frame": { "x": 4312, "y": 0, "w": 46, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 60, "y": 24, "w": 46, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 135.png": {
+    "frame": { "x": 4358, "y": 0, "w": 50, "h": 42 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 62, "y": 24, "w": 50, "h": 42 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 136.png": {
+    "frame": { "x": 4408, "y": 0, "w": 52, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 62, "y": 36, "w": 52, "h": 32 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Punky 137.png": {
+    "frame": { "x": 4460, "y": 0, "w": 54, "h": 20 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 62, "y": 48, "w": 54, "h": 20 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   }
+ },
+   "animations": {
+    "caminar": [
+      "Punky 0.png",
+      "Punky 1.png",
+      "Punky 2.png",
+      "Punky 3.png",
+      "Punky 4.png",
+      "Punky 5.png",
+      "Punky 6.png",
+      "Punky 7.png",
+      "Punky 8.png",
+      "Punky 9.png",
+      "Punky 10.png",
+      "Punky 11.png",
+      "Punky 12.png",
+      "Punky 13.png",
+      "Punky 14.png",
+      "Punky 15.png",
+      "Punky 16.png",
+      "Punky 17.png",
+      "Punky 18.png",
+      "Punky 19.png",
+      "Punky 20.png",
+      "Punky 21.png",
+      "Punky 22.png",
+      "Punky 23.png"
+    ],
+    "correr": [
+      "Punky 24.png",
+      "Punky 25.png",
+      "Punky 26.png",
+      "Punky 27.png",
+      "Punky 28.png",
+      "Punky 29.png",
+      "Punky 30.png",
+      "Punky 31.png",
+      "Punky 32.png",
+      "Punky 33.png",
+      "Punky 34.png",
+      "Punky 35.png",
+      "Punky 36.png",
+      "Punky 37.png",
+      "Punky 38.png",
+      "Punky 39.png",
+      "Punky 40.png",
+      "Punky 41.png",
+      "Punky 42.png",
+      "Punky 43.png",
+      "Punky 44.png",
+      "Punky 45.png",
+      "Punky 46.png",
+      "Punky 47.png"
+    ],
+    "idle":[
+      "Punky 50.png",
+      "Punky 51.png",
+      "Punky 52.png",
+      "Punky 53.png",
+      "Punky 54.png",
+      "Punky 55.png",
+      "Punky 56.png",
+      "Punky 57.png",
+      "Punky 58.png",
+      "Punky 59.png",
+      "Punky 60.png",
+      "Punky 61.png",
+      "Punky 62.png",
+      "Punky 63.png",
+      "Punky 64.png",
+      "Punky 65.png",
+      "Punky 66.png",
+      "Punky 67.png",
+      "Punky 68.png",
+      "Punky 69.png",
+      "Punky 70.png",
+      "Punky 71.png",
+      "Punky 72.png",
+      "Punky 73.png",
+      "Punky 74.png"
+    ],
+    "saltar":[
+      "Punky 76.png",
+      "Punky 77.png",
+      "Punky 78.png",
+      "Punky 79.png",
+      "Punky 80.png",
+      "Punky 81.png",
+      "Punky 82.png",
+      "Punky 83.png",
+      "Punky 84.png",
+      "Punky 85.png",
+      "Punky 86.png",
+      "Punky 87.png",
+      "Punky 88.png",
+      "Punky 89.png",
+      "Punky 90.png",
+      "Punky 91.png",
+      "Punky 92.png",
+      "Punky 93.png",
+      "Punky 94.png",
+      "Punky 95.png",
+      "Punky 96.png",
+      "Punky 97.png",
+      "Punky 98.png",
+      "Punky 99.png",
+      "Punky 100.png",
+      "Punky 101.png",
+      "Punky 102.png",
+      "Punky 103.png",
+      "Punky 104.png",
+      "Punky 105.png",
+      "Punky 106.png"
+    ],
+    "muerte":[
+      "Punky 108.png",
+      "Punky 109.png",
+      "Punky 110.png",
+      "Punky 111.png",
+      "Punky 112.png",
+      "Punky 113.png",
+      "Punky 114.png",
+      "Punky 115.png",
+      "Punky 116.png",
+      "Punky 117.png",
+      "Punky 118.png",
+      "Punky 119.png",
+      "Punky 120.png",
+      "Punky 121.png",
+      "Punky 122.png",
+      "Punky 123.png",
+      "Punky 124.png",
+      "Punky 125.png",
+      "Punky 126.png",
+      "Punky 127.png",
+      "Punky 128.png",
+      "Punky 129.png",
+      "Punky 130.png",
+      "Punky 131.png",
+      "Punky 132.png",
+      "Punky 133.png",
+      "Punky 134.png",
+      "Punky 135.png",
+      "Punky 136.png",
+      "Punky 137.png"
+    ]
+  },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.14-beta1-x64",
+  "image": "Punky.png",
+  "format": "RGBA8888",
+  "size": { "w": 4514, "h": 62 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

@@ -1,0 +1,1268 @@
+{ "frames": {
+   "Mago 0.png": {
+    "frame": { "x": 0, "y": 0, "w": 36, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 44, "y": 12, "w": 36, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 1.png": {
+    "frame": { "x": 36, "y": 0, "w": 34, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 34, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 2.png": {
+    "frame": { "x": 70, "y": 0, "w": 30, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 14, "w": 30, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 3.png": {
+    "frame": { "x": 100, "y": 0, "w": 28, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 28, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 4.png": {
+    "frame": { "x": 128, "y": 0, "w": 28, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 28, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 5.png": {
+    "frame": { "x": 156, "y": 0, "w": 26, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 26, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 6.png": {
+    "frame": { "x": 182, "y": 0, "w": 28, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 28, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 7.png": {
+    "frame": { "x": 210, "y": 0, "w": 28, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 28, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 8.png": {
+    "frame": { "x": 238, "y": 0, "w": 28, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 28, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 9.png": {
+    "frame": { "x": 266, "y": 0, "w": 28, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 28, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 10.png": {
+    "frame": { "x": 294, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 11.png": {
+    "frame": { "x": 322, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 12.png": {
+    "frame": { "x": 350, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 13.png": {
+    "frame": { "x": 378, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 14.png": {
+    "frame": { "x": 406, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 15.png": {
+    "frame": { "x": 434, "y": 0, "w": 28, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 28, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 16.png": {
+    "frame": { "x": 462, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 14, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 17.png": {
+    "frame": { "x": 492, "y": 0, "w": 30, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 14, "w": 30, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 18.png": {
+    "frame": { "x": 522, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 14, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 19.png": {
+    "frame": { "x": 552, "y": 0, "w": 32, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 14, "w": 32, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 20.png": {
+    "frame": { "x": 584, "y": 0, "w": 32, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 14, "w": 32, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 21.png": {
+    "frame": { "x": 616, "y": 0, "w": 34, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 14, "w": 34, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 22.png": {
+    "frame": { "x": 650, "y": 0, "w": 34, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 34, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 23.png": {
+    "frame": { "x": 684, "y": 0, "w": 34, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 34, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 24.png": {
+    "frame": { "x": 718, "y": 0, "w": 30, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 44, "y": 18, "w": 30, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 25.png": {
+    "frame": { "x": 748, "y": 0, "w": 26, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 18, "w": 26, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 26.png": {
+    "frame": { "x": 774, "y": 0, "w": 26, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 18, "w": 26, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 27.png": {
+    "frame": { "x": 800, "y": 0, "w": 22, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 16, "w": 22, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 28.png": {
+    "frame": { "x": 822, "y": 0, "w": 22, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 16, "w": 22, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 29.png": {
+    "frame": { "x": 844, "y": 0, "w": 24, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 16, "w": 24, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 30.png": {
+    "frame": { "x": 868, "y": 0, "w": 24, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 14, "w": 24, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 31.png": {
+    "frame": { "x": 892, "y": 0, "w": 28, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 28, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 32.png": {
+    "frame": { "x": 920, "y": 0, "w": 28, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 28, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 33.png": {
+    "frame": { "x": 948, "y": 0, "w": 32, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 14, "w": 32, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 34.png": {
+    "frame": { "x": 980, "y": 0, "w": 32, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 14, "w": 32, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 35.png": {
+    "frame": { "x": 1012, "y": 0, "w": 34, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 16, "w": 34, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 36.png": {
+    "frame": { "x": 1046, "y": 0, "w": 34, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 18, "w": 34, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 37.png": {
+    "frame": { "x": 1080, "y": 0, "w": 34, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 18, "w": 34, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 38.png": {
+    "frame": { "x": 1114, "y": 0, "w": 34, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 16, "w": 34, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 39.png": {
+    "frame": { "x": 1148, "y": 0, "w": 30, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 16, "w": 30, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 40.png": {
+    "frame": { "x": 1178, "y": 0, "w": 30, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 16, "w": 30, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 41.png": {
+    "frame": { "x": 1208, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 42.png": {
+    "frame": { "x": 1236, "y": 0, "w": 24, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 14, "w": 24, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 43.png": {
+    "frame": { "x": 1260, "y": 0, "w": 24, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 14, "w": 24, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 44.png": {
+    "frame": { "x": 1284, "y": 0, "w": 22, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 14, "w": 22, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 45.png": {
+    "frame": { "x": 1306, "y": 0, "w": 24, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 24, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 46.png": {
+    "frame": { "x": 1330, "y": 0, "w": 26, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 16, "w": 26, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 47.png": {
+    "frame": { "x": 1356, "y": 0, "w": 28, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 16, "w": 28, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 48.png": {
+    "frame": { "x": 1384, "y": 0, "w": 32, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 42, "y": 18, "w": 32, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 49.png": {
+    "frame": { "x": 1416, "y": 0, "w": 22, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 12, "w": 22, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 50.png": {
+    "frame": { "x": 1438, "y": 0, "w": 24, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 24, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 51.png": {
+    "frame": { "x": 1462, "y": 0, "w": 26, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 26, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 52.png": {
+    "frame": { "x": 1488, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 53.png": {
+    "frame": { "x": 1516, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 54.png": {
+    "frame": { "x": 1544, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 55.png": {
+    "frame": { "x": 1574, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 56.png": {
+    "frame": { "x": 1604, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 57.png": {
+    "frame": { "x": 1634, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 58.png": {
+    "frame": { "x": 1664, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 59.png": {
+    "frame": { "x": 1694, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 60.png": {
+    "frame": { "x": 1724, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 61.png": {
+    "frame": { "x": 1754, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 62.png": {
+    "frame": { "x": 1784, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 63.png": {
+    "frame": { "x": 1814, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 64.png": {
+    "frame": { "x": 1844, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 65.png": {
+    "frame": { "x": 1874, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 66.png": {
+    "frame": { "x": 1904, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 67.png": {
+    "frame": { "x": 1934, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 68.png": {
+    "frame": { "x": 1964, "y": 0, "w": 30, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 30, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 69.png": {
+    "frame": { "x": 1994, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 70.png": {
+    "frame": { "x": 2022, "y": 0, "w": 28, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 12, "w": 28, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 71.png": {
+    "frame": { "x": 2050, "y": 0, "w": 24, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 24, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 72.png": {
+    "frame": { "x": 2074, "y": 0, "w": 24, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 12, "w": 24, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 73.png": {
+    "frame": { "x": 2098, "y": 0, "w": 22, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 12, "w": 22, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 74.png": {
+    "frame": { "x": 2120, "y": 0, "w": 22, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 12, "w": 22, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 75.png": {
+    "frame": { "x": 2142, "y": 0, "w": 26, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 14, "w": 26, "h": 48 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 76.png": {
+    "frame": { "x": 2168, "y": 0, "w": 26, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 16, "w": 26, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 77.png": {
+    "frame": { "x": 2194, "y": 0, "w": 28, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 16, "w": 28, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 78.png": {
+    "frame": { "x": 2222, "y": 0, "w": 30, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 16, "w": 30, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 79.png": {
+    "frame": { "x": 2252, "y": 0, "w": 34, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 48, "y": 14, "w": 34, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 80.png": {
+    "frame": { "x": 2286, "y": 0, "w": 38, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 46, "y": 14, "w": 38, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 81.png": {
+    "frame": { "x": 2324, "y": 0, "w": 42, "h": 46 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 44, "y": 12, "w": 42, "h": 46 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 82.png": {
+    "frame": { "x": 2366, "y": 0, "w": 44, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 42, "y": 12, "w": 44, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 83.png": {
+    "frame": { "x": 2410, "y": 0, "w": 48, "h": 42 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 40, "y": 12, "w": 48, "h": 42 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 84.png": {
+    "frame": { "x": 2458, "y": 0, "w": 48, "h": 42 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 40, "y": 12, "w": 48, "h": 42 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 85.png": {
+    "frame": { "x": 2506, "y": 0, "w": 52, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 14, "w": 52, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 86.png": {
+    "frame": { "x": 2558, "y": 0, "w": 52, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 14, "w": 52, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 87.png": {
+    "frame": { "x": 2610, "y": 0, "w": 52, "h": 38 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 16, "w": 52, "h": 38 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 88.png": {
+    "frame": { "x": 2662, "y": 0, "w": 52, "h": 36 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 18, "w": 52, "h": 36 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 89.png": {
+    "frame": { "x": 2714, "y": 0, "w": 52, "h": 34 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 18, "w": 52, "h": 34 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 90.png": {
+    "frame": { "x": 2766, "y": 0, "w": 54, "h": 34 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 20, "w": 54, "h": 34 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 91.png": {
+    "frame": { "x": 2820, "y": 0, "w": 54, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 22, "w": 54, "h": 32 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 92.png": {
+    "frame": { "x": 2874, "y": 0, "w": 54, "h": 30 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 24, "w": 54, "h": 30 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 93.png": {
+    "frame": { "x": 2928, "y": 0, "w": 56, "h": 28 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 26, "w": 56, "h": 28 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 94.png": {
+    "frame": { "x": 2984, "y": 0, "w": 54, "h": 26 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 28, "w": 54, "h": 26 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 95.png": {
+    "frame": { "x": 3038, "y": 0, "w": 54, "h": 26 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 30, "w": 54, "h": 26 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 96.png": {
+    "frame": { "x": 3092, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 34, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 97.png": {
+    "frame": { "x": 3146, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 36, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 98.png": {
+    "frame": { "x": 3200, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 38, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 99.png": {
+    "frame": { "x": 3254, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 40, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 100.png": {
+    "frame": { "x": 3308, "y": 0, "w": 54, "h": 20 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 36, "y": 42, "w": 54, "h": 20 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 101.png": {
+    "frame": { "x": 3362, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 102.png": {
+    "frame": { "x": 3416, "y": 0, "w": 54, "h": 20 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 54, "h": 20 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 103.png": {
+    "frame": { "x": 3470, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 38, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 104.png": {
+    "frame": { "x": 3524, "y": 0, "w": 54, "h": 20 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 54, "h": 20 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 105.png": {
+    "frame": { "x": 3578, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 106.png": {
+    "frame": { "x": 3632, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 40, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 107.png": {
+    "frame": { "x": 3686, "y": 0, "w": 22, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 12, "w": 22, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 108.png": {
+    "frame": { "x": 3708, "y": 0, "w": 22, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 10, "w": 22, "h": 52 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 109.png": {
+    "frame": { "x": 3730, "y": 0, "w": 22, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 22, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 110.png": {
+    "frame": { "x": 3752, "y": 0, "w": 22, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 22, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 111.png": {
+    "frame": { "x": 3774, "y": 0, "w": 22, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 6, "w": 22, "h": 56 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 112.png": {
+    "frame": { "x": 3796, "y": 0, "w": 22, "h": 58 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 4, "w": 22, "h": 58 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 113.png": {
+    "frame": { "x": 3818, "y": 0, "w": 22, "h": 58 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 4, "w": 22, "h": 58 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 114.png": {
+    "frame": { "x": 3840, "y": 0, "w": 22, "h": 60 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 2, "w": 22, "h": 60 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 115.png": {
+    "frame": { "x": 3862, "y": 0, "w": 22, "h": 60 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 2, "w": 22, "h": 60 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 116.png": {
+    "frame": { "x": 3884, "y": 0, "w": 22, "h": 60 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 2, "w": 22, "h": 60 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 117.png": {
+    "frame": { "x": 3906, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 118.png": {
+    "frame": { "x": 3928, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 119.png": {
+    "frame": { "x": 3950, "y": 0, "w": 22, "h": 62 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 0, "w": 22, "h": 62 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 120.png": {
+    "frame": { "x": 3972, "y": 0, "w": 22, "h": 58 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 4, "w": 22, "h": 58 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 121.png": {
+    "frame": { "x": 3994, "y": 0, "w": 22, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 8, "w": 22, "h": 54 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 122.png": {
+    "frame": { "x": 4016, "y": 0, "w": 22, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 12, "w": 22, "h": 50 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 123.png": {
+    "frame": { "x": 4038, "y": 0, "w": 22, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 18, "w": 22, "h": 44 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 124.png": {
+    "frame": { "x": 4060, "y": 0, "w": 22, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 22, "w": 22, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 125.png": {
+    "frame": { "x": 4082, "y": 0, "w": 22, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 22, "w": 22, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 126.png": {
+    "frame": { "x": 4104, "y": 0, "w": 22, "h": 38 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 50, "y": 24, "w": 22, "h": 38 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 127.png": {
+    "frame": { "x": 4126, "y": 0, "w": 20, "h": 36 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 26, "w": 20, "h": 36 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 128.png": {
+    "frame": { "x": 4146, "y": 0, "w": 22, "h": 36 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 52, "y": 26, "w": 22, "h": 36 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 129.png": {
+    "frame": { "x": 4168, "y": 0, "w": 20, "h": 34 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 28, "w": 20, "h": 34 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 130.png": {
+    "frame": { "x": 4188, "y": 0, "w": 22, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 30, "w": 22, "h": 32 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 131.png": {
+    "frame": { "x": 4210, "y": 0, "w": 22, "h": 30 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 56, "y": 32, "w": 22, "h": 30 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 132.png": {
+    "frame": { "x": 4232, "y": 0, "w": 30, "h": 30 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 32, "w": 30, "h": 30 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 133.png": {
+    "frame": { "x": 4262, "y": 0, "w": 40, "h": 30 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 54, "y": 34, "w": 40, "h": 30 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 134.png": {
+    "frame": { "x": 4302, "y": 0, "w": 46, "h": 40 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 60, "y": 24, "w": 46, "h": 40 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 135.png": {
+    "frame": { "x": 4348, "y": 0, "w": 50, "h": 42 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 62, "y": 24, "w": 50, "h": 42 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 136.png": {
+    "frame": { "x": 4398, "y": 0, "w": 52, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 62, "y": 36, "w": 52, "h": 32 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   },
+   "Mago 137.png": {
+    "frame": { "x": 4450, "y": 0, "w": 54, "h": 22 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 62, "y": 46, "w": 54, "h": 22 },
+    "sourceSize": { "w": 128, "h": 72 },
+    "duration": 100
+   }
+ },
+     "animations": {
+    "caminar": [
+      "Mago 0.png",
+      "Mago 1.png",
+      "Mago 2.png",
+      "Mago 3.png",
+      "Mago 4.png",
+      "Mago 5.png",
+      "Mago 6.png",
+      "Mago 7.png",
+      "Mago 8.png",
+      "Mago 9.png",
+      "Mago 10.png",
+      "Mago 11.png",
+      "Mago 12.png",
+      "Mago 13.png",
+      "Mago 14.png",
+      "Mago 15.png",
+      "Mago 16.png",
+      "Mago 17.png",
+      "Mago 18.png",
+      "Mago 19.png",
+      "Mago 20.png",
+      "Mago 21.png",
+      "Mago 22.png",
+      "Mago 23.png"
+    ],
+    "correr": [
+      "Mago 24.png",
+      "Mago 25.png",
+      "Mago 26.png",
+      "Mago 27.png",
+      "Mago 28.png",
+      "Mago 29.png",
+      "Mago 30.png",
+      "Mago 31.png",
+      "Mago 32.png",
+      "Mago 33.png",
+      "Mago 34.png",
+      "Mago 35.png",
+      "Mago 36.png",
+      "Mago 37.png",
+      "Mago 38.png",
+      "Mago 39.png",
+      "Mago 40.png",
+      "Mago 41.png",
+      "Mago 42.png",
+      "Mago 43.png",
+      "Mago 44.png",
+      "Mago 45.png",
+      "Mago 46.png",
+      "Mago 47.png"
+    ],
+    "idle":[
+      "Mago 50.png",
+      "Mago 51.png",
+      "Mago 52.png",
+      "Mago 53.png",
+      "Mago 54.png",
+      "Mago 55.png",
+      "Mago 56.png",
+      "Mago 57.png",
+      "Mago 58.png",
+      "Mago 59.png",
+      "Mago 60.png",
+      "Mago 61.png",
+      "Mago 62.png",
+      "Mago 63.png",
+      "Mago 64.png",
+      "Mago 65.png",
+      "Mago 66.png",
+      "Mago 67.png",
+      "Mago 68.png",
+      "Mago 69.png",
+      "Mago 70.png",
+      "Mago 71.png",
+      "Mago 72.png",
+      "Mago 73.png",
+      "Mago 74.png"
+    ],
+    "saltar":[
+      "Mago 76.png",
+      "Mago 77.png",
+      "Mago 78.png",
+      "Mago 79.png",
+      "Mago 80.png",
+      "Mago 81.png",
+      "Mago 82.png",
+      "Mago 83.png",
+      "Mago 84.png",
+      "Mago 85.png",
+      "Mago 86.png",
+      "Mago 87.png",
+      "Mago 88.png",
+      "Mago 89.png",
+      "Mago 90.png",
+      "Mago 91.png",
+      "Mago 92.png",
+      "Mago 93.png",
+      "Mago 94.png",
+      "Mago 95.png",
+      "Mago 96.png",
+      "Mago 97.png",
+      "Mago 98.png",
+      "Mago 99.png",
+      "Mago 100.png",
+      "Mago 101.png",
+      "Mago 102.png",
+      "Mago 103.png",
+      "Mago 104.png",
+      "Mago 105.png",
+      "Mago 106.png"
+    ],
+    "muerte":[
+      "Mago 108.png",
+      "Mago 109.png",
+      "Mago 110.png",
+      "Mago 111.png",
+      "Mago 112.png",
+      "Mago 113.png",
+      "Mago 114.png",
+      "Mago 115.png",
+      "Mago 116.png",
+      "Mago 117.png",
+      "Mago 118.png",
+      "Mago 119.png",
+      "Mago 120.png",
+      "Mago 121.png",
+      "Mago 122.png",
+      "Mago 123.png",
+      "Mago 124.png",
+      "Mago 125.png",
+      "Mago 126.png",
+      "Mago 127.png",
+      "Mago 128.png",
+      "Mago 129.png",
+      "Mago 130.png",
+      "Mago 131.png",
+      "Mago 132.png",
+      "Mago 133.png",
+      "Mago 134.png",
+      "Mago 135.png",
+      "Mago 136.png",
+      "Mago 137.png"
+    ]
+  },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.14-beta1-x64",
+  "image": "Mago.png",
+  "format": "RGBA8888",
+  "size": { "w": 4504, "h": 62 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

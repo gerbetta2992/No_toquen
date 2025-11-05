@@ -8,7 +8,7 @@ class Ciudad extends GameObject {
   }
 
   tick() {
-    
+    this.container.zIndex = -1000;
   }
 
   cargarSprite(textureData, scale) {

@@ -5,14 +5,16 @@ class GameObject {
   x = 0;
   y = 0;
   target;
-  perseguidor;
+  puntoDeHuida;
   aceleracionMaxima = 0.2;
   velocidadMaxima = 3;
   spritesAnimados = {};
   radio = 10;
   distanciaPersonal = 20;
-  distanciaParaLlegar = 300;
+  distanciaParaLlegar = 300;   //HUI cambiar eso o el tint para variar de los tipitso
+  // customizar velocidades, momento inicial de animacion, escala, etc
   spriteActual = null;
+  reboteCooldown = false;
 
   constructor(textureData, x, y, juego, animInicial,escala) {
     this.container = new PIXI.Container();
@@ -20,7 +22,7 @@ class GameObject {
 
     this.textureData = textureData;
     this.container.name = "container";
-    this.vision = Math.random() * 200 + 1300;
+    this.vision = Math.random() * 250 + 100;
     //guarda una referencia a la instancia del juego
     this.posicion = { x: x, y: y };
     this.velocidad = { x: Math.random() * 10, y: Math.random() * 10 };
@@ -56,14 +58,26 @@ class GameObject {
     this.juego.pixiApp.stage.addChild(this.container);
   }
 
-  cambiarAnimacion(cual) {
-    //hacemos todos invisibles
+// ------------------------ Manejo de Renderizacion de los Sprites --------------------
+  cambiarAnimacion(cual, velAnim = 1) {
+    if (this.animacionActual === cual) return;
+
     for (let key of Object.keys(this.spritesAnimados)) {
       this.spritesAnimados[key].visible = false;
-
+      this.spritesAnimados[key].stop();
+      this.spritesAnimados[key].gotoAndStop(0);
+      
     }
-    //y despues hacemos visible el q queremos
+    if (cual == "caminar"){
+      const totalFrames = this.spritesAnimados[cual].totalFrames;
+      const frameInicial = Math.floor(Math.random() * totalFrames);
+      this.spritesAnimados[cual].gotoAndStop(frameInicial);
+    }
+      
     this.spritesAnimados[cual].visible = true;
+    this.spritesAnimados[cual].animationSpeed = velAnim;
+    this.spritesAnimados[cual].play();
+    this.animacionActual = cual;
   }
 
   cargarSpritesAnimados(textureData, scale, velAnim) {
@@ -76,7 +90,7 @@ class GameObject {
       this.spritesAnimados[key].play();
       this.spritesAnimados[key].loop = true;
       this.spritesAnimados[key].animationSpeed = velAnim;
-      this.spritesAnimados[key].scale.set(scale);
+      this.spritesAnimados[key].scale.set(0.1);
       this.spritesAnimados[key].anchor.set(0.5, 0.5);
 
       this.container.addChild(this.spritesAnimados[key]);
@@ -84,27 +98,59 @@ class GameObject {
     
   }
 
+  cambiarVelocidadDeAnimacionSegunVelocidadLineal() {
+    const keys = Object.keys(this.spritesAnimados);
+    for (let key of keys) {
+      this.spritesAnimados[key].animationSpeed =
+        this.velocidadLineal * 0.05 * this.juego.pixiApp.ticker.deltaTime;
+    }
+  }
+
+
+// ----------------------- Limitadores -------------------
+  limitarAceleracion() {
+    this.aceleracion = limitarVector(this.aceleracion, this.aceleracionMaxima);
+  }
+
+
+
+
+  // -------------------------- Fisicas ------------------
+  aplicarFriccion() {
+    const friccion = Math.pow(0.95, this.juego.pixiApp.ticker.deltaTime);
+    this.velocidad.x *= friccion;
+    this.velocidad.y *= friccion;
+  }
+
+  asignarVelocidad(x, y) {
+    this.velocidad.x = x;
+    this.velocidad.y = y;
+  }
+
+  limitarVelocidad() {
+    this.velocidad = limitarVector(this.velocidad, this.velocidadMaxima);
+  }
+
+  render() {
+    this.container.x = this.posicion.x;
+    this.container.y = this.posicion.y;
+    
+    //this.cambiarVelocidadDeAnimacionSegunVelocidadLineal();
+  }
+
   tick() {
     //TODO: hablar de deltatime
     //this.aceleracion.x = 0;
     //this.aceleracion.y = 0;
-
-    //this.separacion();
-
-    //this.escapar();
-    //this.perseguir();
+    if (this.asesinado) return;
     this.limitarAceleracion();
     this.velocidad.x += this.aceleracion.x * this.juego.pixiApp.ticker.deltaTime;
     this.velocidad.y += this.aceleracion.y * this.juego.pixiApp.ticker.deltaTime;
-
-    //variaciones de la velocidad
-    this.rebotar();
-    this.aplicarFriccion();
     this.limitarVelocidad();
+    //variaciones de la velocidad
+    this.aplicarFriccion();
+    
 
-    //pixeles por frame
-    this.posicion.x += this.velocidad.x * this.juego.pixiApp.ticker.deltaTime;
-    this.posicion.y += this.velocidad.y * this.juego.pixiApp.ticker.deltaTime;
 
     //guardamos el angulo
     this.angulo =
@@ -115,171 +161,4 @@ class GameObject {
     );
   }
 
-  separacion() {
-    let promedioDePosicionDeAquellosQEstanMuyCercaMio = { x: 0, y: 0 };
-    let contador = 0;
-
-    for (let persona of this.juego.personas) {
-      if (this != persona) {
-        if (
-          calcularDistancia(this.posicion, persona.posicion) <
-          this.distanciaPersonal
-        ) {
-          contador++;
-          promedioDePosicionDeAquellosQEstanMuyCercaMio.x += persona.posicion.x;
-          promedioDePosicionDeAquellosQEstanMuyCercaMio.y += persona.posicion.y;
-        }
-      }
-    }
-
-    if (contador == 0) return;
-
-    promedioDePosicionDeAquellosQEstanMuyCercaMio.x /= contador;
-    promedioDePosicionDeAquellosQEstanMuyCercaMio.y /= contador;
-
-    let vectorQueSeAlejaDelPromedioDePosicion = {
-      x: this.posicion.x - promedioDePosicionDeAquellosQEstanMuyCercaMio.x,
-      y: this.posicion.y - promedioDePosicionDeAquellosQEstanMuyCercaMio.y,
-    };
-
-    vectorQueSeAlejaDelPromedioDePosicion = limitarVector(
-      vectorQueSeAlejaDelPromedioDePosicion,
-      1
-    );
-
-    const factor = 10;
-
-    this.aceleracion.x += vectorQueSeAlejaDelPromedioDePosicion.x * factor;
-    this.aceleracion.y += vectorQueSeAlejaDelPromedioDePosicion.y * factor;
-  }
-
-  
-
-async cambiarDeSpriteAnimadoSegunAngulo(persona, escala) {
-    //0 grados es a la izquierda, 180 a la derecha, 90 arriba, 270 abajo
-    //const moving = calcularDistancia(this.posicion, this.target.posicion) > 200;
-    const moving = !this.target;
-
-    let animName, velAnim;
-
-    // Determinar hoja y animación según dirección y movimiento
-
-    if (moving){
-      animName = "caminar";
-      velAnim = 0.5;
-    }
-    else if (!moving){
-      this.cancelarMovimientoErratico();
-      animName = "correr";
-      velAnim = 1;
-    }
-
-    if (this.angulo > 90 && this.angulo < 270){
-      this.spritesAnimados[animName].scale.x = escala;
-    }
-    else{
-      this.spritesAnimados[animName].scale.x = -escala;
-    }
-    
-    // Cambiar animación activa
-    this.cambiarAnimacion(animName);
-}
-
-  limitarAceleracion() {
-    this.aceleracion = limitarVector(this.aceleracion, this.aceleracionMaxima);
-  }
-
-  limitarVelocidad() {
-    this.velocidad = limitarVector(this.velocidad, this.velocidadMaxima);
-    if (this.spritesAnimados["caminar"].visible == true){
-      this.velocidadMaxima = 1;
-    }
-    else if (this.spritesAnimados["correr"].visible == true){
-      this.velocidadMaxima = 3;
-    }
-  }
-
-  aplicarFriccion() {
-    const friccion = Math.pow(0.95, this.juego.pixiApp.ticker.deltaTime);
-    this.velocidad.x *= friccion;
-    this.velocidad.y *= friccion;
-  }
-
-  rebotar() {
-    //ejemplo mas realista
-    if (this.posicion.x > this.juego.width || this.posicion.x < 0) {
-      //si la coordenada X de este conejito es mayor al ancho del stage,
-      //o si la coordenada X.. es menor q 0 (o sea q se fue por el lado izquierdo)
-      //multiplicamos por -0.99, o sea que se invierte el signo (si era positivo se hace negativo y vicecversa)
-      //y al ser 0.99 pierde 1% de velocidad
-      this.velocidad.x *= -0.99;
-    }
-
-    if (this.posicion.y > this.juego.height || this.posicion.y < 0) {
-      this.velocidad.y *= -0.99;
-    }
-  }
-
-  asignarTarget(quien) {
-    this.target = quien;
-  }
-
-  perseguir() {
-    if (!this.target) return;
-    const dist = calcularDistancia(this.posicion, this.target.posicion);
-    if (dist > this.vision) return;
-
-    // Decaimiento exponencial: va de 1 a 0 a medida que se acerca
-    let factor = Math.pow(dist / this.distanciaParaLlegar, 3);
-
-    const difX = this.target.posicion.x - this.posicion.x;
-    const difY = this.target.posicion.y - this.posicion.y;
-
-    let vectorTemporal = {
-      x: -difX,
-      y: -difY,
-    };
-    vectorTemporal = limitarVector(vectorTemporal, 1);
-
-    this.aceleracion.x += -vectorTemporal.x * factor;
-    this.aceleracion.y += -vectorTemporal.y * factor;
-  }
-
-  escapar() {
-    if (!this.perseguidor) return;
-    const dist = calcularDistancia(this.posicion, this.perseguidor.posicion);
-    if (dist > this.vision) return;
-
-    const difX = this.perseguidor.posicion.x - this.posicion.x;
-    const difY = this.perseguidor.posicion.y - this.posicion.y;
-
-    let vectorTemporal = {
-      x: -difX,
-      y: -difY,
-    };
-    vectorTemporal = limitarVector(vectorTemporal, 1);
-
-    this.aceleracion.x += -vectorTemporal.x;
-    this.aceleracion.y += -vectorTemporal.y;
-  }
-
-  asignarVelocidad(x, y) {
-    this.velocidad.x = x;
-    this.velocidad.y = y;
-  }
-
-  render() {
-    this.container.x = this.posicion.x;
-    this.container.y = this.posicion.y;
-    //this.container.zIndex = this.posicion.y;
-    //this.cambiarVelocidadDeAnimacionSegunVelocidadLineal();
-  }
-
-  cambiarVelocidadDeAnimacionSegunVelocidadLineal() {
-    const keys = Object.keys(this.spritesAnimados);
-    for (let key of keys) {
-      this.spritesAnimados[key].animationSpeed =
-        this.velocidadLineal * 0.05 * this.juego.pixiApp.ticker.deltaTime;
-    }
-  }
 }

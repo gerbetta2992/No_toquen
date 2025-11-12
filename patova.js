@@ -148,7 +148,7 @@ class Patova extends GameObject {
 
   //------------------- Limitadores ----------------------------- 
   limitarPosicion(minX, maxX, minY, maxY){
-    this.posicion.x = Math.max(0, Math.min(this.posicion.x, maxX));
+    this.posicion.x = Math.max(minX, Math.min(this.posicion.x, maxX));
     this.posicion.y = Math.max(minY, Math.min(this.posicion.y, maxY));
   }
 

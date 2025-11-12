@@ -129,8 +129,6 @@ class Juego {
     this.hudContainer.addChild(this.barra);
 
     
-
-
     
     await this.cargarCiudad();
     await this.cargarPersonas().then(() => {
@@ -176,15 +174,23 @@ class Juego {
     this.hudContainer.addChild(minimap);
     this.mapScale = {x: this.minimapSize.x / this.width, y: this.minimapSize.y / this.height};
 
+    this.celebridadObjetivoMapRef = new PIXI.Graphics()
+      .beginFill(0xffffff)
+      .drawCircle(this.minimapPosition.x + this.minimapSize.x *0.5, this.minimapPosition.y + this.minimapSize.y*0.5, 6)
+      .endFill();
+    this.hudContainer.addChild(this.celebridadObjetivoMapRef);
+
+
     this.celebridadMapRef = new PIXI.Graphics()
-      .beginFill(0x00ff00)
       .drawCircle(this.minimapPosition.x + this.minimapSize.x *0.5, this.minimapPosition.y + this.minimapSize.y*0.5, 5)
       .endFill();
     this.hudContainer.addChild(this.celebridadMapRef);
 
+
+
+
     for (let i = 0; i < this.personas.length; i++) {
       const punto = new PIXI.Graphics()
-        .beginFill(0xFFFF00)
         .drawCircle(this.minimapPosition.x + this.minimapSize.x *0.5, this.minimapPosition.y + this.minimapSize.y*0.5, 4) // Dibujá en 0,0
         .endFill();
 
@@ -242,7 +248,7 @@ class Juego {
     for (let cabeza=0; cabeza<5; cabeza++) {
       let cabezaTextura = await PIXI.Assets.load(`Sprites/Hud/${lista_vidas[cabeza]}.png`);
       const cabezaSprite = new PIXI.Sprite(cabezaTextura);
-      cabezaSprite.x = 700 + (cabeza * 50)
+      cabezaSprite.x = 700 + (cabeza * 25)
       cabezaSprite.y = 500
       cabezaSprite.scale.set(2);
       this.hudContainer.addChild(cabezaSprite);
@@ -288,8 +294,6 @@ class Juego {
         const nuevaPersona = new Persona(animacionesPersonas[personaRandom], x, y, this);
         this.personas.push(nuevaPersona);
         
-        console.log(nuevaPersona,nuevaPersona.posicion);
-        console.log(puntosLibres[i]);
         this.mundoContainer.addChild(nuevaPersona.container);
       }
   }
@@ -396,14 +400,30 @@ actualizarMapa(){
   this.celebridadMapRef.x = (this.celebridad.posicion.x * this.mapScale.x) - this.minimapSize.x/2;
   this.celebridadMapRef.y = (this.celebridad.posicion.y * this.mapScale.y) - this.minimapSize.y/2;
 
+  if (this.celebridad.objetivo){
+    this.celebridadObjetivoMapRef.x = (this.celebridad.objetivo.posicion.x * this.mapScale.x) - this.minimapSize.x/2;
+    this.celebridadObjetivoMapRef.y = (this.celebridad.objetivo.posicion.y * this.mapScale.y) - this.minimapSize.y/2;
+  }
+  if (this.celebridad.ansiedad < 30){
+      this.celebridadMapRef.tint = 0x00ff00;
+  }
+  else if (this.celebridad.ansiedad < 60){
+    console.log(333333);
+    this.celebridadMapRef.tint = 0xffff00;
+  }
+  else{
+    this.celebridadMapRef.tint = 0xff0000; 
+  }
+
+
   for (let i=0; i < this.personasMapRef.length; i++){
     this.personasMapRef[i].x = (this.personas[i].posicion.x * this.mapScale.x) - this.minimapSize.x/2;
     this.personasMapRef[i].y = (this.personas[i].posicion.y * this.mapScale.y) - this.minimapSize.y/2;
     if (this.personas[i].estado == "comoLoquita"){
-      this.personasMapRef[i].tint = 0xFF0000;
+      this.personasMapRef[i].tint = 0xaa0000;
     }
     else{
-      this.personasMapRef[i].tint = 0xFFFF00;
+      this.personasMapRef[i].tint = 0xaaaaaa;
     }
   }
 }
@@ -461,7 +481,6 @@ actualizarMapa(){
 
   disparar(pos){
     if (this.patova.balas <= 0) return;
-    console.log(this.mouse.posicion);
     this.sonidoDisparo.currentTime = 0;
     this.sonidoDisparo.play();
     //const graphics = new PIXI.Graphics();

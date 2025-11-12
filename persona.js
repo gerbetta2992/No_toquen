@@ -93,7 +93,7 @@ class Persona extends GameObject {
         this.velocidad.x = 0;
         this.velocidad.y = 0;
 
-        const duracionPausa = Math.random() * 2000 + 8000;
+        const duracionPausa = Math.random() * 2000 + 1000;
         this.intervalId = setTimeout(() => {
          this.ciclo(); 
         }, duracionPausa);
@@ -290,12 +290,12 @@ class Persona extends GameObject {
 
 
 // ----------------------- Manejo de Renderizacion de los Sprites --------------------
-randomPastelColor() {
-  const r = 225 + Math.floor(Math.random() * 30); // 200–255
-  const g = 225 + Math.floor(Math.random() * 30);
-  const b = 225 + Math.floor(Math.random() * 30);
-  return (r << 16) + (g << 8) + b;
-}
+  randomPastelColor() {
+    const r = 225 + Math.floor(Math.random() * 30); // 200–255
+    const g = 225 + Math.floor(Math.random() * 30);
+    const b = 225 + Math.floor(Math.random() * 30);
+    return (r << 16) + (g << 8) + b;
+  }
   cargarSpritesAnimados(textureData, escala, velAnim) {
 
     for (let key of Object.keys(textureData.animations)) {
@@ -383,7 +383,6 @@ randomPastelColor() {
   inicializarFanatismo(){
     this.fanatismoInicial = Math.min(Math.random() * 100, 50);
     this.fanatismo = this.fanatismoInicial;
-    console.log(this.fanatismoInicial);
   }
 
   calcularFanatismo(){

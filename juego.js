@@ -93,8 +93,8 @@ class Juego {
 
   while (puntos.length < cantidad) {
     const punto = {
-      x: Math.random() * anchoMapa + 250,
-      y: Math.random() * altoMapa + 250,
+      x: Math.random() * anchoMapa,
+      y: Math.random() * altoMapa,
     };
 
     // Si el punto NO está dentro de ninguna zona bloqueada, lo agregamos

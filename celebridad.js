@@ -175,6 +175,31 @@ class Celebridad extends Persona {
     //}
   }
 
+  generarPuntosNoBloqueados(zonasBloqueadas, cantidad, anchoMapa, altoMapa) {
+  const puntos = [];
+
+  while (puntos.length < cantidad) {
+    const punto = {
+      x: Math.random() * anchoMapa + 250,
+      y: Math.random() * altoMapa + 250,
+    };
+
+    // Si el punto NO está dentro de ninguna zona bloqueada, lo agregamos
+    const dentroDeZona = zonasBloqueadas.some(z =>
+      punto.x >= z.x &&
+      punto.x <= z.x + z.width &&
+      punto.y >= z.y &&
+      punto.y <= z.y + z.height
+    );
+
+    if (!dentroDeZona) {
+      
+      puntos.push(punto);
+    }
+  }
+  return puntos;
+  }
+
   ciclo() {
     
     if (!this.camino || this.camino.length === 0) {

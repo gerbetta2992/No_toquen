@@ -5,6 +5,7 @@ class Ciudad extends GameObject {
     const animInicial = "ciudad";
     super(textureData, x, y, juego, animInicial, escala);
     this.cargarSprite(textureData, escala)
+    
   }
 
   tick() {

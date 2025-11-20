@@ -6,7 +6,7 @@ class Persona extends GameObject {
   intervalId;
   fanatismo;
   miedo = 0;
-
+  
   constructor(textureData, x, y, juego) {
     const escala = 1;
     const velAnim = Math.floor(Math.random() +1);;
@@ -16,6 +16,7 @@ class Persona extends GameObject {
     this.cambiarAnimacion(animInicial, velAnim);
     this.movimientoErratico();
     this.inicializarFanatismo();
+    this.distanciaPersonal = 20;
   }
 
 // ----------------------------- Manejo del movimiento --------------------------
@@ -142,10 +143,10 @@ class Persona extends GameObject {
       } else if (this.posicion.x <= 0 + 50) {
         this.movimientoContrario(1, (Math.random() - Math.random()));
       }
-      if (this.posicion.y >= this.juego.height - 200) {
+      if (this.posicion.y >= this.juego.height - 100) {
         this.movimientoContrario( (Math.random() - Math.random()), -1);
 
-      } else if (this.posicion.y <= 0 + 200) {
+      } else if (this.posicion.y <= 0 + 100) {
         this.movimientoContrario((Math.random() - Math.random()), 1);
       }
       this.reboteCooldown = true;

@@ -14,8 +14,24 @@
         left: 50%;
         transform: translate(-50%, -50%);
         }
+        #start {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        /* Opcional: estilos para que se vea mejor */
+        padding: 15px 30px;
+        font-size: 22px;
+        cursor: pointer;
+        }
+        @font-face {
+        font-family: "NeonPixel";
+        src: url("Fuentes/neon_pixel-7.ttf") format("truetype");
+        }
 
     </style>
+
 
     <script src="utils.js"></script>
 
@@ -33,24 +49,38 @@
     <script src="celebridad.js"></script>
     <script src="patova.js"></script> 
 
-    
+    <script src="musica.js"></script> 
     <script src="arbol.js"></script> 
     <script src="luces.js"></script> 
     <script src="mira.js"></script>
     <script src="ciudad.js"></script>
+    
 
 </head>
 
 <body>
+    <div style="font-family: 'NeonPixel'; opacity:0; position:absolute; pointer-events:none;">
+    .
+    </div>
+    <button id="start">Enter para Iniciar</button>
+
+
     <script>
+        let started = false;
 
-        // todo empieza aca (Entry Point).
-        // creamos una instancia de la clase juego
-        const juego = new Juego()
+        document.getElementById("start").addEventListener("click", startGame);
 
+        async function startGame() {
+            if (started) return; 
+            started = true;
 
+            document.getElementById("start").style.display = "none";
+
+            const juego = new Juego();
+            await juego.iniciar();
+            let musica = playTitleSong();
+        }
     </script>
-
 </body>
 
 </html>

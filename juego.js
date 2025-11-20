@@ -11,6 +11,8 @@ class Juego {
   arboles = []
   luces = []
   personasMapRef = []
+  startButton;
+  title;
 
   constructor() {
     this.width = 2816;
@@ -28,11 +30,17 @@ class Juego {
       { x: 720, y: 1160, width: 320, height: 185 },
       { x: 1810, y: 1160, width: 320, height: 185 },
       { x: 2080, y: 1080, width: 530, height: 270 },
-      { x: 2650, y: 835, width: 160, height: 550 },
+      { x: 2650, y: 835, width: 560, height: 850 },
     ];
-    this.initPIXI();
+    this.oleada = 1;
+    this.proximaOleada = Math.random() * 50000 + 10000 * this.oleada;
+    this.cargarNuevaOleada();
+    this.paused = true;
   }
 
+  async iniciar(){
+    this.initPIXI();
+  }
 // ------------------------ Zonas bloqueadas ------------------------
   dentroDeRect(pos, rect) {
     return (
@@ -43,13 +51,50 @@ class Juego {
     );
   }
 
+  generarPuntosEnBorde(zonasBloqueadas, cantidad, anchoMapa, altoMapa) {
+  const puntos = [];
+
+  while (puntos.length < cantidad) {
+
+    // Elegir aleatoriamente un borde
+    const borde = Math.floor(Math.random() * 2); // 0=izq, 1=der, 2=arriba, 3=abajo
+    let punto = { x: 0, y: 0 };
+
+    switch (borde) {
+      case 0: // IZQUIERDA
+        punto.x = 0 - 10;
+        punto.y = Math.random() * altoMapa;
+        break;
+
+      case 1: // DERECHA
+        punto.x = anchoMapa + 25;
+        punto.y = Math.random() * altoMapa;
+        break;
+    }
+
+    // Revisar si cae dentro de una zona bloqueada
+    const dentroDeZona = zonasBloqueadas.some(z =>
+      punto.x >= z.x &&
+      punto.x <= z.x + z.width &&
+      punto.y >= z.y &&
+      punto.y <= z.y + z.height
+    );
+
+    if (!dentroDeZona) {
+      puntos.push(punto);
+    }
+  }
+
+  return puntos;
+  }
+
   generarPuntosNoBloqueados(zonasBloqueadas, cantidad, anchoMapa, altoMapa) {
   const puntos = [];
 
   while (puntos.length < cantidad) {
     const punto = {
-      x: Math.random() * anchoMapa,
-      y: Math.random() * altoMapa,
+      x: Math.random() * anchoMapa + 250,
+      y: Math.random() * altoMapa + 250,
     };
 
     // Si el punto NO está dentro de ninguna zona bloqueada, lo agregamos
@@ -65,24 +110,70 @@ class Juego {
       puntos.push(punto);
     }
   }
-  
-  
-  
   return puntos;
   }
+
+
 
   //async indica q este metodo es asyncronico, es decir q puede usar "await"
   async initPIXI() {
     //creamos la aplicacion de pixi y la guardamos en la propiedad pixiApp
     this.pixiApp = new PIXI.Application();
-    this.mundoContainer = new PIXI.Container();
-    this.pixiApp.stage.addChild(this.mundoContainer);
-    this.mundoContainer.sortableChildren = true;
-    this.hudContainer = new PIXI.Container();
-    this.pixiApp.stage.addChild(this.hudContainer);
+    const startScreen = new PIXI.Container();
+    this.pixiApp.stage.addChild(startScreen);
+
+    // Fondo
+    const texture = await PIXI.Assets.load("Sprites/Ciudad/Frente2.png");
+    const bg = new PIXI.Sprite(texture);
+    bg.scale.set(0.75, 0.6);
+    bg.x = (this.width - bg.width) / 2;
+    bg.y = (this.height - bg.height) / 2;
+    startScreen.addChild(bg);
+
+
+    this.currentColor = 0xFF0000; 
+    this.targetColor = 0x00FF00; 
+    this.t = 0;
+
+    
+
+    
+
+    document.fonts.load("10pt NeonPixel").then(() => {
+      this.title = new PIXI.Text("No toquen", {
+        fontFamily: "NeonPixel",
+        fontSize: 180,
+        fill: 0xffffff,
+        stroke: 0x000000,
+        strokeThickness: 6
+    });
+    this.title.anchor.set(0.5);
+    this.title.x = this.width / 2;
+    this.title.y = this.height / 2 - 100;
+    startScreen.addChild(this.title);
+
+
+      this.startButton = new PIXI.Text("Empezar", {
+        fontFamily: "NeonPixel",
+        fontSize: 150,
+        fill: 0xffffff,
+        stroke: 0x000000,
+        strokeThickness: 5
+    });
+    this.startButton.anchor.set(0.5);
+    this.startButton.x = this.width / 2;
+    this.startButton.y = this.height / 2 + 200;
+    this.startButton.interactive = true;
+    this.startButton.buttonMode = true;
+
+    startScreen.addChild(this.startButton);
+    });
+
+    
+    this.gameContainer = new PIXI.Container();
     
     this.pixiApp.stage.name = "el stage";
-
+    
     //esto es para que funcione la extension de pixi
     globalThis.__PIXI_APP__ = this.pixiApp;
 
@@ -93,13 +184,36 @@ class Juego {
       antialias: false,
       SCALE_MODE: PIXI.SCALE_MODES.NEAREST,
     };
-    
     //inicializamos pixi con las opciones definidas anteriormente
     //await indica q el codigo se frena hasta que el metodo init de la app de pixi haya terminado
     //puede tardar 2ms, 400ms.. no lo sabemos :O
     await this.pixiApp.init(opcionesDePixi);
+    
+    const startGame = () => {
+      this.pixiApp.stage.removeChild(startScreen);
+      this.pixiApp.stage.addChild(this.gameContainer);
+      this.pixiApp.stage.setChildIndex(this.gameContainer, this.pixiApp.stage.children.length - 1);
+      this.pixiApp.stage.setChildIndex(this.mira.container, this.pixiApp.stage.children.length - 1);
+      const txt = new PIXI.Text("El juego empezó!", {
+          fontFamily: "Arial",
+          fontSize: 40,
+          fill: 0xffffff
+      });
+      txt.x = 100;
+      txt.y = 100;
+      this.gameContainer.addChild(txt);
+      this.paused = false;
+      //stopMusic();
+      //playNext();
+    }
+    this.startButton.on("pointerdown", startGame);
+    
+    this.mundoContainer = new PIXI.Container();
+    this.gameContainer.addChild(this.mundoContainer);
+    this.mundoContainer.sortableChildren = true;
+    this.hudContainer = new PIXI.Container();
+    this.gameContainer.addChild(this.hudContainer);
 
-    // //agregamos el elementos canvas creado por pixi en el documento html
     document.body.appendChild(this.pixiApp.canvas);
 
     this.sonidoDisparo = new Audio('Sounds/disparo.mp3');
@@ -128,10 +242,19 @@ class Juego {
     this.hudContainer.addChild(this.barraFondo);
     this.hudContainer.addChild(this.barra);
 
-    
+    // Crear Nodos
+    let puntosNodos = this.generarPuntosPoisson(this.width, this.height, 50, this.zonasBloqueadas, 30);
+    this.nodos = puntosNodos.map((p, i) => ({
+      id: i,
+      x: p.x,
+      y: p.y,
+      links: []
+    }));
+    this.conectarNodos(this.nodos, this.zonasBloqueadas);
+
     
     await this.cargarCiudad();
-    await this.cargarPersonas().then(() => {
+    await this.cargarPersonas(25).then(() => {
       //this.asignarElMouseComoPerseguidorATodosLosConejitos();
       this.agregarInteractividadDelMouse();
       this.dibujarMapa();
@@ -146,18 +269,272 @@ class Juego {
     //es decir: en cada frame vamos a ejecutar el metodo this.gameLoop
     this.pixiApp.ticker.add(this.gameLoop.bind(this));
 
-    for (let zona of this.zonasBloqueadas){
-      //const graphics = new PIXI.Graphics();
-      //graphics.beginFill(0xff0000, 0.3); // rojo transparente
-      //graphics.drawRect(
-      //  zona.x,
-      //  zona.y,
-      //  zona.width,
-      //  zona.height
-      //);
-      //graphics.endFill();
-      //this.mundoContainer.addChild(graphics);
+    //this.dibujarZonasBloqueadas();
+    
+
+  }
+
+  lerp(a, b, t) {
+    return a + (b - a) * t;
+  }
+  randomBrightColor(colorA, colorB, t){
+    const aR = (colorA >> 16) & 0xFF;
+    const aG = (colorA >> 8) & 0xFF;
+    const aB = colorA & 0xFF;
+
+    const bR = (colorB >> 16) & 0xFF;
+    const bG = (colorB >> 8) & 0xFF;
+    const bB = colorB & 0xFF;
+
+    const r = Math.floor(this.lerp(aR, bR, t));
+    const g = Math.floor(this.lerp(aG, bG, t));
+    const b = Math.floor(this.lerp(aB, bB, t));
+
+    return (r << 16) | (g << 8) | b;
+  } 
+
+  // ------------------------ Pathfinding ------------------------
+
+  generarPuntosPoisson(ancho, alto, minDist, zonasBloqueadas, k = 30) {
+  const gridSize = minDist / Math.sqrt(2);
+  const cols = Math.ceil(ancho / gridSize);
+  const rows = Math.ceil(alto / gridSize);
+
+  const grid = new Array(cols * rows).fill(null);
+  const puntos = [];
+  const active = [];
+
+  function dentroZonaBloqueada(x, y) {
+    return zonasBloqueadas.some(z =>
+      x >= z.x &&
+      x <= z.x + z.width &&
+      y >= z.y &&
+      y <= z.y + z.height
+    );
+  }
+
+  let p;
+  do {
+    p = {
+      x: Math.random() * ancho,
+      y: Math.random() * alto
+    };
+  } while (dentroZonaBloqueada(p.x, p.y));
+
+  puntos.push(p);
+  active.push(p);
+
+  grid[Math.floor(p.x / gridSize) + Math.floor(p.y / gridSize) * cols] = p;
+
+  while (active.length > 0) {
+    const idx = Math.floor(Math.random() * active.length);
+    const base = active[idx];
+    let found = false;
+
+    for (let i = 0; i < k; i++) {
+      const ang = Math.random() * Math.PI * 2;
+      const dist = minDist * (1 + Math.random());
+      const x = base.x + Math.cos(ang) * dist;
+      const y = base.y + Math.sin(ang) * dist;
+
+      if (
+        x >= 0 && x < ancho &&
+        y >= 0 && y < alto &&
+        !dentroZonaBloqueada(x, y)
+      ) {
+        const gx = Math.floor(x / gridSize);
+        const gy = Math.floor(y / gridSize);
+
+        let ok = true;
+
+        // revisar vecinos
+        for (let yy = -2; yy <= 2; yy++) {
+          for (let xx = -2; xx <= 2; xx++) {
+            const nx = gx + xx;
+            const ny = gy + yy;
+
+            if (nx >= 0 && ny >= 0 && nx < cols && ny < rows) {
+              const vecino = grid[nx + ny * cols];
+              if (vecino) {
+                const d = Math.hypot(vecino.x - x, vecino.y - y);
+                if (d < minDist) {
+                  ok = false;
+                  break;
+                }
+              }
+            }
+          }
+          if (!ok) break;
+        }
+
+        if (ok) {
+          const nuevo = { x, y };
+          puntos.push(nuevo);
+          active.push(nuevo);
+          grid[gx + gy * cols] = nuevo;
+          found = true;
+          break;
+        }
+      }
     }
+
+    if (!found) {
+      active.splice(idx, 1);
+    }
+  }
+  return puntos;
+  }
+
+  lineaCruzaZona(p1, p2, zona) {
+    // Check sencillo: muestreo de puntos sobre la línea
+    const steps = 10;
+    for (let i = 0; i <= steps; i++) {
+      const t = i / steps;
+      const x = p1.x + (p2.x - p1.x) * t;
+      const y = p1.y + (p2.y - p1.y) * t;
+
+      if (x >= zona.x &&
+          x <= zona.x + zona.width &&
+          y >= zona.y &&
+          y <= zona.y + zona.height) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  lineaValida(p1, p2, zonasBloqueadas) {
+    return !zonasBloqueadas.some(z => this.lineaCruzaZona(p1, p2, z));
+  }
+
+  conectarNodos(puntos, zonasBloqueadas) {
+    const RADIO = 150;
+    
+    for (let i = 0; i < puntos.length; i++) {
+      const nodo = puntos[i];
+      nodo.links = [];
+
+      for (let j = 0; j < puntos.length; j++) {
+        if (i === j) continue;
+
+        const otro = puntos[j];
+
+        // Está dentro del radio de conexión?
+        const dx = otro.x - nodo.x;
+        const dy = otro.y - nodo.y;
+        const dist = Math.sqrt(dx*dx + dy*dy);
+
+        if (dist < RADIO) {
+          // Verifico que la línea no cruce zonas bloqueadas
+          if (this.lineaValida(nodo, otro, zonasBloqueadas)) {
+            nodo.links.push(otro);
+          }
+        }
+      }
+    }
+  }
+
+  getNodoMasCercano(x, y, nodos) {
+    let mejor = null;
+    let mejorDist = Infinity;
+
+    for (const n of nodos) {
+      const dx = x - n.x;
+      const dy = y - n.y;
+      const d = dx*dx + dy*dy;
+
+      if (d < mejorDist) {
+        mejorDist = d;
+        mejor = n;
+      }
+    }
+
+    return mejor;
+  }
+
+  astar(inicio, fin) {
+    const open = [];
+    const closed = new Set();
+
+    for (const n of this.nodos) {
+      n.g = Infinity;
+      n.h = 0;
+      n.f = Infinity;
+      n.parent = null;
+    }
+
+    inicio.g = 0;
+    inicio.h = calcularDistancia(inicio, fin);
+    inicio.f = inicio.h;
+
+    open.push(inicio);
+
+    while (open.length > 0) {
+      open.sort((a, b) => a.f - b.f);
+      const actual = open.shift();
+
+      if (actual === fin) {
+        return this.reconstruirCamino(fin);
+      }
+
+      closed.add(actual);
+
+      for (const vecino of actual.links) {
+        if (closed.has(vecino)) continue;
+
+        const gNuevo = actual.g + calcularDistancia(actual, vecino);
+
+        if (!open.includes(vecino) || gNuevo < vecino.g) {
+          vecino.g = gNuevo;
+          vecino.h = calcularDistancia(vecino, fin);
+          vecino.f = vecino.g + vecino.h;
+          vecino.parent = actual;
+
+          if (!open.includes(vecino)) {
+            open.push(vecino);
+          }
+        }
+      }
+    }
+
+    return []; // si no hay camino
+  }
+
+  reconstruirCamino(nodo) {
+    const camino = [];
+    while (nodo) {
+      camino.push({ x: nodo.x, y: nodo.y });
+      nodo = nodo.parent;
+    }
+    return camino.reverse();
+  }
+
+
+  dibujarZonasBloqueadas(zonasBloqueadas){
+    for (let zona of zonasBloqueadas){
+      const graphics = new PIXI.Graphics();
+      graphics.beginFill(0xff0000, 0.3); // rojo transparente
+      graphics.drawRect(
+        zona.x,
+        zona.y,
+        10, //zona.width,
+        10 //zona.height
+      );
+      graphics.endFill();
+      this.mundoContainer.addChild(graphics);
+    }
+  }
+  agregarPersonaAlMapa(indice){
+    const punto = new PIXI.Graphics()
+        .drawCircle(this.minimapPosition.x + this.minimapSize.x *0.5, this.minimapPosition.y + this.minimapSize.y*0.5, 4) // Dibujá en 0,0
+        .endFill();
+
+      // Seteás la posición del punto en el minimapa
+      punto.x = this.minimapPosition.x + this.minimapSize.x * 0.5;
+      punto.y = this.minimapPosition.y + this.minimapSize.y * 0.5;
+
+      this.personasMapRef.push(punto);
+      this.hudContainer.addChild(this.personasMapRef[indice]);
   }
 
   // ------------- Cargar game objects ---------------
@@ -167,6 +544,13 @@ class Juego {
     this.minimapSize = {x:400, y:200};
 
     // Fondo del minimapa
+    let map = new PIXI.Sprite(this.ciudad.spriteActual.texture);
+    map.scale.set(0.141, 0.125);
+    map.x = this.minimapPosition.x;
+    map.y = this.minimapPosition.y;
+    map.alpha = 0.75;
+    this.hudContainer.addChild(map);
+
     const minimap = new PIXI.Graphics()
       .beginFill(0x000000, 0.5)
       .drawRect(this.minimapPosition.x, this.minimapPosition.y, this.minimapSize.x, this.minimapSize.y)
@@ -186,20 +570,8 @@ class Juego {
       .endFill();
     this.hudContainer.addChild(this.celebridadMapRef);
 
-
-
-
     for (let i = 0; i < this.personas.length; i++) {
-      const punto = new PIXI.Graphics()
-        .drawCircle(this.minimapPosition.x + this.minimapSize.x *0.5, this.minimapPosition.y + this.minimapSize.y*0.5, 4) // Dibujá en 0,0
-        .endFill();
-
-      // Seteás la posición del punto en el minimapa
-      punto.x = this.minimapPosition.x + this.minimapSize.x * 0.5;
-      punto.y = this.minimapPosition.y + this.minimapSize.y * 0.5;
-
-      this.personasMapRef.push(punto);
-      this.hudContainer.addChild(this.personasMapRef[i]);
+      this.agregarPersonaAlMapa(i);
     }
   }
 
@@ -256,19 +628,22 @@ class Juego {
     }
   }
   async cargarBalas(){
-    const texturaBalas = await PIXI.Assets.load("Sprites/Hud/Balas.png");
+    this.texturaBalas = await PIXI.Assets.load("Sprites/Hud/Balas.png");
     for(let bala=0; bala<this.patova.balas; bala++){
-      const balaSprite = new PIXI.Sprite(texturaBalas);
+      const balaSprite = new PIXI.Sprite(this.texturaBalas);
       balaSprite.x = 700 + (bala * 10);
       balaSprite.y = 400;
       this.hudContainer.addChild(balaSprite);
       this.balasHud.push(balaSprite);
     }
   }
-  async cargarPersonas(){
+  async cargarPersonas(cantidad, puntosLibres = null){
     const lista_personas = this.listarPersonas();
     const animacionesPersonas = {}
-    const puntosLibres = this.generarPuntosNoBloqueados(this.zonasBloqueadas, 50, 2500, 1200);
+    if (puntosLibres == null){
+      puntosLibres = this.generarPuntosNoBloqueados(this.zonasBloqueadas, cantidad, 2500, 1200);
+    }
+
     //for (let punto of puntosLibres){
     //  const graphics = new PIXI.Graphics();
     //  graphics.beginFill(0xff0000, 0.3); // rojo transparente
@@ -286,7 +661,7 @@ class Juego {
       animacionesPersonas[persona] = await PIXI.Assets.load(`Sprites/Personas/${persona}/${persona}.json`);
     }
     
-    for (let i = 0; i < 50; i++){
+    for (let i = 0; i < cantidad; i++){
         let puntoRandom = puntosLibres[i];
         let x = puntoRandom.x; //0.5 * this.width;
         let y = puntoRandom.y; //0.5 * this.height;
@@ -302,7 +677,7 @@ class Juego {
     const celebridadAnim = await PIXI.Assets.load("Sprites/Personas/Rapero/Rapero.json");
     this.celebridad = new Celebridad(celebridadAnim, 0.5 * this.width, 0.5 * this.height, this);
     this.mundoContainer.addChild(this.celebridad.container);
-    this.personas.push(this.celebridad);
+    //this.personas.push(this.celebridad);
   }
 
   async cargarPatova(){
@@ -357,6 +732,23 @@ class Juego {
     return lista_personas[index]
   }
 
+
+  actualizarTimer(){
+    if (!this.textoTimer) {
+    this.textoTimer = new PIXI.Text('', {
+      fontFamily: 'NeonPixel',
+      fontSize: 20,
+      fill: 0xffffff,
+      fontWeight: "bold",
+      align: 'center',
+    });
+    this.hudContainer.addChild(this.textoTimer);
+  }
+    this.textoTimer.x = this.width * 0.5;
+    this.textoTimer.y = 350;
+    let valor = Math.floor(this.celebridad.timer);
+    this.textoTimer.text = `Timer: ${valor}`;
+  }
   actualizarBarra() {
   const porcentaje =  this.celebridad.ansiedad / 100;
   const anchoTotal = 300;
@@ -373,60 +765,85 @@ class Juego {
 
   if (!this.textoBarra) {
     this.textoBarra = new PIXI.Text('', {
-      fontFamily: 'Arial',
+      fontFamily: 'NeonPixel',
       fontSize: 20,
       fill: 0x000000,
+      fontWeight: "bold",
       align: 'center',
     });
     this.barra.addChild(this.textoBarra);
   }
-
+  this.textoBarra.x  = 25;
   // Actualizar texto
   const valor = Math.floor(this.celebridad.ansiedad);
   this.textoBarra.text = `Ansiedad: ${valor}%`;
 
 }
 
-  actualizarBalas() {
+  recargarBalas(totalBalasAntesDeCargar = this.patova.balas) {
+    
+    for(let bala=totalBalasAntesDeCargar; bala<this.patova.balas; bala++){
+      const balaSprite = new PIXI.Sprite(this.texturaBalas);
+      balaSprite.x = 700 + (bala * 10);
+      balaSprite.y = 400;
+      this.hudContainer.addChild(balaSprite);
+      console.log(this.balasHud.length);
+      this.balasHud.push(balaSprite);
+      console.log(this.balasHud.length);
+    }
+  }
+  gastarBalas() {
+    
   this.hudContainer.removeChild(this.balasHud[this.patova.balas]);
-}
+  this.balasHud.pop();
+  }
 
   actualizarVidas() {
   this.hudContainer.removeChild(this.vidasHud[this.patova.vidas]);
-}
-
-actualizarMapa(){
-  if (this.personas == undefined) return;
-  this.celebridadMapRef.x = (this.celebridad.posicion.x * this.mapScale.x) - this.minimapSize.x/2;
-  this.celebridadMapRef.y = (this.celebridad.posicion.y * this.mapScale.y) - this.minimapSize.y/2;
-
-  if (this.celebridad.objetivo){
-    this.celebridadObjetivoMapRef.x = (this.celebridad.objetivo.posicion.x * this.mapScale.x) - this.minimapSize.x/2;
-    this.celebridadObjetivoMapRef.y = (this.celebridad.objetivo.posicion.y * this.mapScale.y) - this.minimapSize.y/2;
-  }
-  if (this.celebridad.ansiedad < 30){
-      this.celebridadMapRef.tint = 0x00ff00;
-  }
-  else if (this.celebridad.ansiedad < 60){
-    console.log(333333);
-    this.celebridadMapRef.tint = 0xffff00;
-  }
-  else{
-    this.celebridadMapRef.tint = 0xff0000; 
   }
 
+  actualizarMapa(){
+    if (this.personas == undefined) return;
+    this.celebridadMapRef.x = (this.celebridad.posicion.x * this.mapScale.x) - this.minimapSize.x/2;
+    this.celebridadMapRef.y = (this.celebridad.posicion.y * this.mapScale.y) - this.minimapSize.y/2;
 
-  for (let i=0; i < this.personasMapRef.length; i++){
-    this.personasMapRef[i].x = (this.personas[i].posicion.x * this.mapScale.x) - this.minimapSize.x/2;
-    this.personasMapRef[i].y = (this.personas[i].posicion.y * this.mapScale.y) - this.minimapSize.y/2;
-    if (this.personas[i].estado == "comoLoquita"){
-      this.personasMapRef[i].tint = 0xaa0000;
+      
+
+
+    if (this.celebridad.obj){
+      this.celebridadObjetivoMapRef.x = (this.celebridad.obj.x * this.mapScale.x) - this.minimapSize.x/2;
+      this.celebridadObjetivoMapRef.y = (this.celebridad.obj.y * this.mapScale.y) - this.minimapSize.y/2;
+      let factor = Math.max(100, Math.min(500, this.celebridad.timer)); 
+      const time = performance.now();
+      const phase = Math.floor(time / factor);
+      const blink = (phase & 1) === 0 ? 0xffffff : 0x000000;
+      this.celebridadObjetivoMapRef.tint = blink;
+    }
+    if (this.celebridad.ansiedad < 30){
+        this.celebridadMapRef.tint = 0x00ff00;
+    }
+    else if (this.celebridad.ansiedad < 60){
+      this.celebridadMapRef.tint = 0xffff00;
     }
     else{
-      this.personasMapRef[i].tint = 0xaaaaaa;
+      this.celebridadMapRef.tint = 0xff0000; 
+    }
+
+    for (let i=0; i < this.personas.length; i++){
+
+      if (!this.personasMapRef[i]){
+        this.agregarPersonaAlMapa(i);
+      }
+      this.personasMapRef[i].x = (this.personas[i].posicion.x * this.mapScale.x) - this.minimapSize.x/2;
+      this.personasMapRef[i].y = (this.personas[i].posicion.y * this.mapScale.y) - this.minimapSize.y/2;
+      if (this.personas[i].estado == "comoLoquita"){
+        this.personasMapRef[i].tint = 0xaa0000;
+      }
+      else{
+        this.personasMapRef[i].tint = 0xaaaaaa;
+      }
     }
   }
-}
 // ---------------------- Mouse y otra yerbas -------------------------
   agregarInteractividadDelMouse() {
     // Escuchar el evento mousemove
@@ -497,7 +914,7 @@ actualizarMapa(){
       persona.huirDePos(pos);
     }
     this.patova.balas -= 1;
-    this.actualizarBalas();
+    this.gastarBalas();
     this.patova.disparar = true;
   }
 
@@ -562,20 +979,52 @@ actualizarMapa(){
     }
   }
 
+  cargarNuevaOleada(){
+    
+    setTimeout(() => {
+          this.oleada += 1
+          let puntosLibres;
+          let cantidad = Math.floor(Math.random() * 5) + this.oleada * 10;
+          puntosLibres = this.generarPuntosEnBorde(this.zonasBloqueadas, cantidad, this.width, this.height);
+          this.cargarPersonas(cantidad, puntosLibres);
+          this.proximaOleada = Math.random() * 50000 + 10000 * this.oleada;
+          this.cargarNuevaOleada();
+        }, this.proximaOleada);
+  }
+
+  gradiarColor(){
+    this.t += 0.01;
+    if (this.t >= 1) {
+        this.t = 0;
+        this.currentColor = this.targetColor;
+        this.targetColor = Math.floor(Math.random() * 0xFFFFFF);
+
+    }
+  }
+
 
   gameLoop(time) {
     //iteramos por todos los personas
+    let color = this.randomBrightColor(this.currentColor, this.targetColor, this.t);
+    this.startButton.tint = color;
+    this.title.tint = color;
+    this.gradiarColor();
+    this.mira.render();
+    this.mira.tick();
+    if (this.paused) return;
     this.derrota();
     this.valorBarra -= 0.1;
     if (this.valorBarra < 0) this.valorBarra = 0;
     this.actualizarBarra();
     this.actualizarMapa();
-    this.mira.render();
-    this.mira.tick();
+    this.actualizarTimer();
     this.ciudad.render();
     this.ajustarCamaraAPosicionDelMouse();
     this.patova.render();
     this.patova.tick();
+    this.celebridad.render();
+    this.celebridad.tick();
+
     for (let arbol of this.arboles){
       arbol.render();
     }

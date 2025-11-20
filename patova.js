@@ -15,7 +15,7 @@ class Patova extends GameObject {
     const animInicial = "correr";
     super(textureData, x, y, juego,animInicial, escala);
     this.teclas = {};
-    this.balas = 10;
+    this.balas = 20;
     this.vidas = 5;
     this.cargarSpritesAnimados(textureData, escala, velAnim);
     //this.cambiarAnimacion(animInicial);

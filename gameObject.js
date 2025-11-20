@@ -10,7 +10,6 @@ class GameObject {
   velocidadMaxima = 3;
   spritesAnimados = {};
   radio = 10;
-  distanciaPersonal = 20;
   distanciaParaLlegar = 300;   //HUI cambiar eso o el tint para variar de los tipitso
   // customizar velocidades, momento inicial de animacion, escala, etc
   spriteActual = null;

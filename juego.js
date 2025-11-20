@@ -992,7 +992,11 @@ class Juego {
         }, this.proximaOleada);
   }
 
-  gradiarColor(){
+  graduarColor(){
+    let color = this.randomBrightColor(this.currentColor, this.targetColor, this.t);
+    this.startButton.tint = color;
+    this.title.tint = color;
+
     this.t += 0.01;
     if (this.t >= 1) {
         this.t = 0;
@@ -1005,10 +1009,7 @@ class Juego {
 
   gameLoop(time) {
     //iteramos por todos los personas
-    let color = this.randomBrightColor(this.currentColor, this.targetColor, this.t);
-    this.startButton.tint = color;
-    this.title.tint = color;
-    this.gradiarColor();
+    this.graduarColor();
     this.mira.render();
     this.mira.tick();
     if (this.paused) return;

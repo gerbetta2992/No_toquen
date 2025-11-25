@@ -180,8 +180,8 @@ class Celebridad extends Persona {
 
   while (puntos.length < cantidad) {
     const punto = {
-      x: Math.random() * anchoMapa + 250,
-      y: Math.random() * altoMapa + 250,
+      x: Math.random() * anchoMapa + 350,
+      y: Math.random() * altoMapa + 350,
     };
 
     // Si el punto NO está dentro de ninguna zona bloqueada, lo agregamos

@@ -360,6 +360,7 @@ class Persona extends GameObject {
       }
       else if (correr){
         this.cancelarMovimientoErratico();
+        
         animName = "correr";
         velAnim = 1;
       }
@@ -403,8 +404,14 @@ class Persona extends GameObject {
 
   calcularEstado(){
     if (this.miedo > 9){
-      
+      if (this.estado != "asustado"){
+        this.sonidoGrito = new Audio(`Sounds/Gritos/Grito${Math.floor(Math.random() * 11+ 1)}.mp3`);
+        this.sonidoGrito.volume = 0.5;
+        this.sonidoGrito.currentTime = 0;
+        this.sonidoGrito.play();
+      }
       this.cambiarEstado("asustado");
+      
       //setTimeout(() => {
       //  if(calcularDistancia(this.puntoDeHuida, this.posicion) < )
       //  this.miedo = Math.random() * 3;
